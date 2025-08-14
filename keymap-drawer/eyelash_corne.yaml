@@ -50,7 +50,7 @@ layers:
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   NUMBER:
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB ON
   - {t: '1', s: '!'}
   - '2'
@@ -78,7 +78,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
