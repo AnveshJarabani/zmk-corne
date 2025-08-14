@@ -57,10 +57,10 @@ layers:
   - '3'
   - {t: '5', s: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
+  - PgUp
+  - HOME
   - $$mdi:arrow-up-bold$$
-  - {t: '9', s: (}
+  - PgDn
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
