@@ -66,19 +66,19 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E     &kp R  &kp T                                   &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O    &kp P          &kp SEMI
-&kp ESC  &kp A  &kp S  &kp D     &kp F  &kp G                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp BACKSPACE  &kp SQT
-&td0     &kp Z  &kp X  &kp C     &kp V  &kp B      &kp SPACE                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RCTRL
-                       &kp LGUI  &mo 1  &kp SPACE                                                                &lt 3 ENTER  &mo 2  &kp RALT
+&kp TAB  &kp Q        &kp W             &kp E     &kp R           &kp T                                   &mmv MOVE_UP                     &kp Y            &kp U  &kp I              &kp O        &kp P          &kp SEMI
+&kp ESC  &mt LCTRL A  &mt LEFT_SHIFT S  &kp D     &mt LEFT_ALT F  &kp G                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mt RIGHT_ALT H  &kp J  &mt RIGHT_SHIFT K  &mt RCTRL L  &kp BACKSPACE  &kp SQT
+&td0     &kp Z        &kp X             &kp C     &kp V           &kp B      &kp SPACE                    &mmv MOVE_DOWN                   &kp N            &kp M  &kp COMMA          &kp DOT      &kp FSLH       &kp RCTRL
+                                        &kp LGUI  &mo 1           &kp SPACE                                                                &lt 3 ENTER      &mo 2  &kp RALT
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &rgb_ug RGB_ON   &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp N5                                         &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp PAGE_DOWN    &kp N0    &kp BSPC
+&trans  &rgb_ug RGB_ON   &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp N0                                         &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp PAGE_DOWN    &kp N0    &kp BSPC
 &trans  &bl BL_ON        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &bt BT_SEL 3                   &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LEFT         &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp HOME  &kp PG_UP
 &trans  &rgb_ug RGB_OFF  &kp N7        &kp N8        &kp N9        &rgb_ug RGB_EFF  &kp C_MUTE                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &trans
                                        &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
