@@ -69,7 +69,7 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &rgb_ug RGB_ON   &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp UP_ARROW     &kp N9           &kp N0    &kp BSPC
+&trans  &rgb_ug RGB_ON   &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp N5                                         &mmv MOVE_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp PAGE_DOWN    &kp N0    &kp BSPC
 &trans  &bl BL_ON        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp HOME  &kp PG_UP
 &trans  &rgb_ug RGB_OFF  &kp N7        &kp N8        &kp N9        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
                                        &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
