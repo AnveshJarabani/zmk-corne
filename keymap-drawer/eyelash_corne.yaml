@@ -29,7 +29,7 @@ layers:
   - L
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - '&td0'
   - Z
   - X
   - C
