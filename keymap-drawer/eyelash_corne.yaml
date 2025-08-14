@@ -91,7 +91,7 @@ layers:
   - RGB BRI
   - RGB BRD
   - END
-  - PG DN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
