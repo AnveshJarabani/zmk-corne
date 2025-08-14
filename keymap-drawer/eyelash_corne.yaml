@@ -15,18 +15,18 @@ layers:
   - P
   - {t: ;, s: ':'}
   - $$mdi:keyboard-esc$$
-  - A
-  - S
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - D
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-option$$'}
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - H
+  - {t: H, h: '$$mdi:apple-keyboard-option$$'}
   - J
-  - K
-  - L
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '''', s: '"'}
   - '&td0'
@@ -55,7 +55,7 @@ layers:
   - {t: '1', s: '!'}
   - '2'
   - '3'
-  - {t: '5', s: '%'}
+  - {t: '0', s: )}
   - $$mdi:pan-up$$
   - PgUp
   - HOME
