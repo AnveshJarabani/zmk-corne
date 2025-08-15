@@ -60,15 +60,15 @@ layers:
   - PgUp
   - HOME
   - $$mdi:arrow-up-bold$$
+  - END
   - PgDn
-  - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_ON'
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:pan-left$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-right$$
