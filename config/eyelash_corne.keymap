@@ -71,7 +71,7 @@
 
         windows {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <14 17>;
+            key-positions = <16 32>;
         };
 
         rctrl {
@@ -121,7 +121,7 @@
 
         rwin {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <23 26>;
+            key-positions = <26 37 24>;
         };
 
         lctrlshift {
