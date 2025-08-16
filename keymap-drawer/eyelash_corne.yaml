@@ -199,7 +199,7 @@ layers:
 combos:
 - p: [15, 14]
   k: $$mdi:apple-keyboard-control$$
-- p: [14, 17]
+- p: [16, 32]
   k: $$mdi:apple-keyboard-command$$
 - p: [25, 26]
   k: $$mdi:apple-keyboard-control$$
@@ -219,7 +219,7 @@ combos:
   k: $$mdi:arrow-left-bold$$
 - p: [46, 25]
   k: $$mdi:arrow-right-bold$$
-- p: [23, 26]
+- p: [26, 37, 24]
   k: $$mdi:apple-keyboard-command$$
 - p: [14, 15, 16]
   k: Ctl+$$mdi:apple-keyboard-shift$$
