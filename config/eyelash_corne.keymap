@@ -111,7 +111,7 @@
                        &kp LEFT_ALT  &mo 1  &kp SPACE                                                                      &lt 3 ENTER  &mo 2  &mo 3
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
