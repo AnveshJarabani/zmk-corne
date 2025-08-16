@@ -65,9 +65,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_ON'
-  - '4'
-  - {t: '5', s: '%'}
-  - '6'
+  - {t: '4', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '5', h: '$$mdi:apple-keyboard-shift$$', s: '%'}
+  - {t: '6', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:pan-left$$
   - $$mdi:mouse-right-click-outline$$
