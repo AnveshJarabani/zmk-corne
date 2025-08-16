@@ -55,7 +55,7 @@ layers:
   - {t: '1', s: '!'}
   - '2'
   - '3'
-  - {t: '0', s: )}
+  - RGB EFF
   - $$mdi:pan-up$$
   - PgUp
   - HOME
@@ -83,7 +83,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - RGB EFF
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
   - RGB EFR
