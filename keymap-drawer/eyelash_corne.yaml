@@ -219,3 +219,5 @@ combos:
   k: $$mdi:arrow-left-bold$$
 - p: [46, 25]
   k: $$mdi:arrow-right-bold$$
+- p: [23, 26]
+  k: $$mdi:apple-keyboard-command$$
