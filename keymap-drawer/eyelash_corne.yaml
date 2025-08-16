@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - '&msc MOVE_Y(10)'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
@@ -84,7 +84,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - RGB EFF
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
   - RGB EFR
   - RGB SPI
