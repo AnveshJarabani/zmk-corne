@@ -211,3 +211,11 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [23, 24]
   k: $$mdi:apple-keyboard-option$$
+- p: [9, 46]
+  k: $$mdi:arrow-up-bold$$
+- p: [46, 24]
+  k: $$mdi:arrow-down-bold$$
+- p: [46, 23]
+  k: $$mdi:arrow-left-bold$$
+- p: [46, 25]
+  k: $$mdi:arrow-right-bold$$
