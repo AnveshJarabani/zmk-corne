@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-tab$$
   - NUMBER
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: Fn}
