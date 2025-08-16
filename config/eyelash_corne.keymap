@@ -71,7 +71,7 @@
 
         windows {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <16 32>;
+            key-positions = <32 31>;
         };
 
         rctrl {
@@ -121,7 +121,7 @@
 
         rwin {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <26 37 24>;
+            key-positions = <37 38>;
         };
 
         lctrlshift {
@@ -132,6 +132,16 @@
         rctrlshift {
             bindings = <&kp RC(RIGHT_SHIFT)>;
             key-positions = <26 25 24>;
+        };
+
+        lshiftwin {
+            bindings = <&kp LS(LEFT_GUI)>;
+            key-positions = <32 31 30>;
+        };
+
+        rwinshift {
+            bindings = <&kp RS(RIGHT_WIN)>;
+            key-positions = <37 38 39>;
         };
     };
 
