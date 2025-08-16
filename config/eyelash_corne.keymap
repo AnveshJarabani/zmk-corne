@@ -123,6 +123,16 @@
             bindings = <&kp LEFT_GUI>;
             key-positions = <23 26>;
         };
+
+        lctrlshift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <14 15 16>;
+        };
+
+        rctrlshift {
+            bindings = <&kp RC(RIGHT_SHIFT)>;
+            key-positions = <26 25 24>;
+        };
     };
 
     keymap {
