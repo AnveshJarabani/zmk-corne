@@ -66,7 +66,7 @@
 
         lctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <15 14>;
+            key-positions = <30 29>;
         };
 
         windows {
@@ -76,17 +76,17 @@
 
         rctrl {
             bindings = <&kp RCTRL>;
-            key-positions = <25 26>;
+            key-positions = <40 39>;
         };
 
         lshift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <16 15>;
+            key-positions = <15 14>;
         };
 
         rshift {
             bindings = <&kp RSHIFT>;
-            key-positions = <24 25>;
+            key-positions = <25 26>;
         };
 
         lalt {
@@ -126,12 +126,12 @@
 
         lctrlshift {
             bindings = <&kp LC(LEFT_SHIFT)>;
-            key-positions = <14 15 16>;
+            key-positions = <15 16 17>;
         };
 
         rctrlshift {
             bindings = <&kp RC(RIGHT_SHIFT)>;
-            key-positions = <26 25 24>;
+            key-positions = <25 24 23>;
         };
 
         lshiftwin {
