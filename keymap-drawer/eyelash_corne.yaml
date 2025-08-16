@@ -199,7 +199,7 @@ layers:
 combos:
 - p: [15, 14]
   k: $$mdi:apple-keyboard-control$$
-- p: [16, 32]
+- p: [32, 31]
   k: $$mdi:apple-keyboard-command$$
 - p: [25, 26]
   k: $$mdi:apple-keyboard-control$$
@@ -219,9 +219,13 @@ combos:
   k: $$mdi:arrow-left-bold$$
 - p: [46, 25]
   k: $$mdi:arrow-right-bold$$
-- p: [26, 37, 24]
+- p: [37, 38]
   k: $$mdi:apple-keyboard-command$$
 - p: [14, 15, 16]
   k: Ctl+$$mdi:apple-keyboard-shift$$
 - p: [26, 25, 24]
   k: Ctl+$$mdi:apple-keyboard-shift$$
+- p: [32, 31, 30]
+  k: Sft+$$mdi:apple-keyboard-command$$
+- p: [37, 38, 39]
+  k: Sft+RIGHT WIN
