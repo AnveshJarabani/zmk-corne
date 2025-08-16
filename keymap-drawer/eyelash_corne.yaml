@@ -221,3 +221,7 @@ combos:
   k: $$mdi:arrow-right-bold$$
 - p: [23, 26]
   k: $$mdi:apple-keyboard-command$$
+- p: [14, 15, 16]
+  k: Ctl+$$mdi:apple-keyboard-shift$$
+- p: [26, 25, 24]
+  k: Ctl+$$mdi:apple-keyboard-shift$$
