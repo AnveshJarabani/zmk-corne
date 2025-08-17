@@ -143,6 +143,11 @@
             bindings = <&kp RS(RIGHT_WIN)>;
             key-positions = <37 38 39>;
         };
+
+        layer4 {
+            bindings = <&mo 4>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
@@ -194,6 +199,15 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 };
