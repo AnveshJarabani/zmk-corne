@@ -284,3 +284,7 @@ combos:
   k: $$mdi:apple-keyboard-control$$
 - p: [15, 16]
   k: $$mdi:apple-keyboard-shift$$
+- p: [39, 38]
+  k: $$mdi:apple-keyboard-control$$
+- p: [24, 25]
+  k: $$mdi:apple-keyboard-shift$$
