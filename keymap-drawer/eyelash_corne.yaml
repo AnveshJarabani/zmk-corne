@@ -79,7 +79,7 @@ layers:
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - VOLUME DOWN
+  - $$mdi:volume-low$$
   - '&mkp MB4'
   - $$mdi:mouse-scroll-wheel$$
   - '&mkp MB5'
