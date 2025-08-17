@@ -185,9 +185,9 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-down-bold$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - Ctl+$$mdi:arrow-right-bold$$
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
