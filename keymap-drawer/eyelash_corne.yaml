@@ -46,7 +46,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - NUMBER
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYMBOL
   - Fn
   NUMBER:
@@ -193,9 +193,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   '4':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
