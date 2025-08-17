@@ -178,7 +178,7 @@
             key-positions = <24 25>;
         };
 
-        layer4 {
+        layer4split {
             bindings = <&mo 4>;
             key-positions = <44 45>;
         };
