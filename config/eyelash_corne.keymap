@@ -66,27 +66,27 @@
 
         lctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <30 31>;
+            key-positions = <30 29>;
         };
 
         windows {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <32 31>;
+            key-positions = <31 32>;
         };
 
         rctrl {
             bindings = <&kp RCTRL>;
-            key-positions = <39 38>;
+            key-positions = <39 40>;
         };
 
         lshift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <15 16>;
+            key-positions = <15 14>;
         };
 
         rshift {
             bindings = <&kp RSHIFT>;
-            key-positions = <25 24>;
+            key-positions = <25 26>;
         };
 
         lalt {
