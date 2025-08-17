@@ -242,6 +242,26 @@
             bindings = <&kp LC(O)>;
             key-positions = <17 10>;
         };
+
+        widowleft {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <23 31>;
+        };
+
+        windowright {
+            bindings = <&kp LG(RIGHT_ARROW)>;
+            key-positions = <31 25>;
+        };
+
+        windowup {
+            bindings = <&kp LG(UP_ARROW)>;
+            key-positions = <31 9>;
+        };
+
+        windowdown {
+            bindings = <&kp LG(DOWN_ARROW)>;
+            key-positions = <31 24>;
+        };
     };
 
     keymap {
