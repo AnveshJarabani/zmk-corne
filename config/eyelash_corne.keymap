@@ -167,6 +167,16 @@
             bindings = <&kp LSHIFT>;
             key-positions = <15 16>;
         };
+
+        rctrl-2 {
+            bindings = <&kp RCTRL>;
+            key-positions = <39 38>;
+        };
+
+        rshift-2 {
+            bindings = <&kp LSHIFT>;
+            key-positions = <24 25>;
+        };
     };
 
     keymap {
