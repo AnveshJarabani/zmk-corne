@@ -290,3 +290,7 @@ combos:
   k: $$mdi:apple-keyboard-shift$$
 - p: [44, 45]
   k: '4'
+- p: [32, 23]
+  k: Sft+Gui+$$mdi:arrow-left-bold$$
+- p: [32, 25]
+  k: Sft+Gui+$$mdi:arrow-right-bold$$
