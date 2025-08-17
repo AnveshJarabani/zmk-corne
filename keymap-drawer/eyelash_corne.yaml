@@ -52,9 +52,9 @@ layers:
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-high$$
-  - {t: '1', s: '!'}
-  - '2'
-  - '3'
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-right-click-outline$$
   - RGB EFF
   - $$mdi:pan-up$$
   - PgUp
@@ -65,9 +65,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_ON'
-  - '4'
-  - {t: '5', s: '%'}
-  - '6'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:pan-left$$
   - $$mdi:mouse-right-click-outline$$
@@ -80,9 +80,9 @@ layers:
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - VOLUME DOWN
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - '&mkp MB4'
+  - $$mdi:mouse-scroll-wheel$$
+  - '&mkp MB5'
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
