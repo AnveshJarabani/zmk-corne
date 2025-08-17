@@ -306,3 +306,11 @@ combos:
   k: Ctl+$$mdi:arrow-right-bold$$
 - p: [17, 10]
   k: Ctl+O
+- p: [23, 31]
+  k: Gui+$$mdi:arrow-left-bold$$
+- p: [31, 25]
+  k: Gui+$$mdi:arrow-right-bold$$
+- p: [31, 9]
+  k: Gui+$$mdi:arrow-up-bold$$
+- p: [31, 24]
+  k: Gui+$$mdi:arrow-down-bold$$
