@@ -211,7 +211,7 @@
             bindings = <
 &trans  &kp EXCL      &kp AT          &kp HASH        &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &out OUT_BLE  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &bt BT_NXT      &msc SCRL_DOWN  &none            &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&trans  &out OUT_USB  &bt BT_NXT      &msc SCRL_DOWN  &mo 4            &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                       &trans          &trans           &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
