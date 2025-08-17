@@ -182,6 +182,16 @@
             bindings = <&mo 4>;
             key-positions = <44 45>;
         };
+
+        moveleftmonitor {
+            bindings = <&kp LS(LG(LEFT))>;
+            key-positions = <32 23>;
+        };
+
+        moverightmonitor {
+            bindings = <&kp LS(LG(RIGHT_ARROW))>;
+            key-positions = <32 25>;
+        };
     };
 
     keymap {
