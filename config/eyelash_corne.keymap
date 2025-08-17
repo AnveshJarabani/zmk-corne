@@ -205,7 +205,7 @@
 &trans  &kp C_VOLUME_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &rgb_ug RGB_EFF                            &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_DOWN  &kp BSPC
 &trans  &bl BL_ON          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DELETE                 &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LC(LEFT)     &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp RC(RIGHT)  &kp PG_UP
 &trans  &kp C_VOLUME_DOWN  &mkp MB4        &mkp MCLK       &mkp MB5         &mo 4            &trans                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END        &trans
-                                           &trans          &trans           &trans                                                                      &kp INS          &kp DEL          &trans
+                                           &trans          &trans           &trans                                                                      &kp TAB          &kp DELETE       &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -217,7 +217,7 @@
 &trans  &kp EXCL      &kp AT          &kp HASH        &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &out OUT_BLE  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_USB  &bt BT_NXT      &msc SCRL_DOWN  &mo 4            &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                      &trans          &trans           &kp SPACE                                                             &kp RET    &trans     &trans
+                                      &kp LCTRL       &kp LEFT_SHIFT   &kp TAB                                                               &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&volume_scroll>;
