@@ -16,7 +16,7 @@ layers:
   - {t: ;, s: ':'}
   - $$mdi:keyboard-esc$$
   - A
-  - S
+  - {t: S, s: '$$mdi:apple-keyboard-shift$$'}
   - D
   - F
   - G
@@ -26,7 +26,7 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, s: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '''', s: '"'}
   - '&td0'
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
   - $$mdi:mouse-left-click-outline$$
-  - Ctl+$$mdi:arrow-up-bold$$
+  - Ctl+Sft+$$mdi:arrow-up-bold$$
   - $$mdi:mouse-right-click-outline$$
   - PRINTSCREEN
   - F12
@@ -185,9 +185,9 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+$$mdi:arrow-left-bold$$
-  - Ctl+$$mdi:arrow-down-bold$$
-  - Ctl+$$mdi:arrow-right-bold$$
+  - Ctl+Sft+$$mdi:arrow-left-bold$$
+  - Ctl+Sft+$$mdi:arrow-down-bold$$
+  - Ctl+Sft+$$mdi:arrow-right-bold$$
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
@@ -294,3 +294,13 @@ combos:
   k: Sft+Gui+$$mdi:arrow-left-bold$$
 - p: [32, 25]
   k: Sft+Gui+$$mdi:arrow-right-bold$$
+- p: [26, 17]
+  k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+- p: [17, 9]
+  k: Ctl+$$mdi:arrow-up-bold$$
+- p: [17, 24]
+  k: Ctl+$$mdi:arrow-down-bold$$
+- p: [17, 23]
+  k: Ctl+$$mdi:arrow-left-bold$$
+- p: [17, 25]
+  k: Ctl+$$mdi:arrow-right-bold$$
