@@ -51,7 +51,7 @@ layers:
   - Fn
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB ON
+  - $$mdi:volume-high$$
   - {t: '1', s: '!'}
   - '2'
   - '3'
@@ -79,7 +79,7 @@ layers:
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
+  - VOLUME DOWN
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
