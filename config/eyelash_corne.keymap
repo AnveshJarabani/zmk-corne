@@ -237,6 +237,11 @@
             bindings = <&kp LC(RIGHT_ARROW)>;
             key-positions = <17 25>;
         };
+
+        ctrlo {
+            bindings = <&kp LC(O)>;
+            key-positions = <17 10>;
+        };
     };
 
     keymap {
