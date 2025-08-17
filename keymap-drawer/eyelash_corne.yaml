@@ -241,8 +241,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
@@ -288,3 +288,5 @@ combos:
   k: $$mdi:apple-keyboard-control$$
 - p: [24, 25]
   k: $$mdi:apple-keyboard-shift$$
+- p: [44, 45]
+  k: '4'
