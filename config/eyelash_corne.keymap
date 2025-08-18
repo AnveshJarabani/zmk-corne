@@ -262,6 +262,11 @@
             bindings = <&kp LG(DOWN_ARROW)>;
             key-positions = <31 24>;
         };
+
+        altf4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <1 23>;
+        };
     };
 
     keymap {
