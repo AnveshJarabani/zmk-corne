@@ -267,6 +267,26 @@
             bindings = <&kp LA(F4)>;
             key-positions = <1 23>;
         };
+
+        lctrlshiftup {
+            bindings = <&kp LC(LS(UP_ARROW))>;
+            key-positions = <9 16>;
+        };
+
+        lctrlshiftdown {
+            bindings = <&kp LC(LS(DOWN_ARROW))>;
+            key-positions = <16 24>;
+        };
+
+        lctrlshiftleft {
+            bindings = <&kp LC(LS(LEFT_ARROW))>;
+            key-positions = <16 23>;
+        };
+
+        lctrlshiftright {
+            bindings = <&kp LC(LS(RIGHT_ARROW))>;
+            key-positions = <16 25>;
+        };
     };
 
     keymap {
