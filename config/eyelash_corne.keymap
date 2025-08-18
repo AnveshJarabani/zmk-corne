@@ -327,10 +327,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp C_VOLUME_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &rgb_ug RGB_EFF                            &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_DOWN  &kp BSPC
-&trans  &bl BL_ON          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP               &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LC(LEFT)     &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp RC(RIGHT)  &kp PG_UP
-&trans  &kp C_VOLUME_DOWN  &mkp MB4        &mkp MCLK       &mkp MB5         &msc SCRL_DOWN   &trans                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END        &trans
-                                           &trans          &trans           &trans                                                                      &kp TAB          &kp DELETE       &kp RCTRL
+&trans  &kp C_VOLUME_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP                              &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_DOWN  &kp BSPC
+&trans  &bl BL_ON          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LC(LEFT)     &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp RC(RIGHT)  &kp PG_UP
+&trans  &kp C_VOLUME_DOWN  &mkp MB4        &mkp MCLK       &mkp MB5         &kp DEL         &trans                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END        &trans
+                                           &trans          &trans           &trans                                                                     &kp TAB          &kp DELETE       &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
