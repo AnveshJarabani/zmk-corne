@@ -316,3 +316,11 @@ combos:
   k: Gui+$$mdi:arrow-down-bold$$
 - p: [1, 23]
   k: Alt+F4
+- p: [9, 16]
+  k: Ctl+Sft+$$mdi:arrow-up-bold$$
+- p: [16, 24]
+  k: Ctl+Sft+$$mdi:arrow-down-bold$$
+- p: [16, 23]
+  k: Ctl+Sft+$$mdi:arrow-left-bold$$
+- p: [16, 25]
+  k: Ctl+Sft+$$mdi:arrow-right-bold$$
