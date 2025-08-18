@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - '&key_repeat'
   - $$mdi:keyboard-tab$$
   - NUMBER
   - $$mdi:keyboard-space$$
