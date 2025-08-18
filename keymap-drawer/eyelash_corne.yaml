@@ -314,3 +314,5 @@ combos:
   k: Gui+$$mdi:arrow-up-bold$$
 - p: [31, 24]
   k: Gui+$$mdi:arrow-down-bold$$
+- p: [1, 23]
+  k: Alt+F4
