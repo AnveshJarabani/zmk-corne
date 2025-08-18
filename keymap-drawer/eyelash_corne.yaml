@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - '&key_repeat'
-  - '4'
+  - $$mdi:keyboard-tab$$
   - NUMBER
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -200,8 +200,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
-  - {t: F2, type: held alternate}
-  - {t: F3, type: held alternate}
+  - {t: F2, type: held}
+  - {t: F3, type: held}
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -239,10 +239,10 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
@@ -288,8 +288,6 @@ combos:
   k: $$mdi:apple-keyboard-control$$
 - p: [24, 25]
   k: $$mdi:apple-keyboard-shift$$
-- p: [44, 45]
-  k: '4'
 - p: [32, 23]
   k: Sft+Gui+$$mdi:arrow-left-bold$$
 - p: [32, 25]
@@ -332,3 +330,5 @@ combos:
   k: $$mdi:pan-right$$
 - p: [43, 15]
   k: $$mdi:pan-left$$
+- p: [42, 43]
+  k: '4'
