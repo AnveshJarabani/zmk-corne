@@ -287,6 +287,26 @@
             bindings = <&kp LC(LS(RIGHT_ARROW))>;
             key-positions = <16 25>;
         };
+
+        mousescrollup {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <3 43>;
+        };
+
+        mousescrolldown {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <43 16>;
+        };
+
+        mousescrollright {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <43 17>;
+        };
+
+        mousescrollleft {
+            bindings = <&msc SCRL_LEFT>;
+            key-positions = <43 15>;
+        };
     };
 
     keymap {
