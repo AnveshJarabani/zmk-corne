@@ -328,8 +328,8 @@
             display-name = "NUMBER";
             bindings = <
 &trans  &kp C_VOLUME_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &rgb_ug RGB_EFF                            &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_DOWN  &kp BSPC
-&trans  &bl BL_ON          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DELETE                 &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LC(LEFT)     &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp RC(RIGHT)  &kp PG_UP
-&trans  &kp C_VOLUME_DOWN  &mkp MB4        &mkp MCLK       &mkp MB5         &mo 4            &trans                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END        &trans
+&trans  &bl BL_ON          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP               &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LC(LEFT)     &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp RC(RIGHT)  &kp PG_UP
+&trans  &kp C_VOLUME_DOWN  &mkp MB4        &mkp MCLK       &mkp MB5         &msc SCRL_DOWN   &trans                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END        &trans
                                            &trans          &trans           &trans                                                                      &kp TAB          &kp DELETE       &kp RCTRL
             >;
 
@@ -351,10 +351,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7                  &kp F8                  &kp F9                   &kp F10          &kp F11
-&trans          &trans     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK               &kp RC(RS(UP_ARROW))    &mkp RCLK                &kp PRINTSCREEN  &kp F12
-&trans          &kp RC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &kp RC(RS(LEFT_ARROW))  &kp RC(RS(DOWN_ARROW))  &kp RC(RS(RIGHT_ARROW))  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                      &trans     &trans     &trans                                                                   &trans       &trans                  &trans
+&studio_unlock  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6  &kp F7                  &kp F8                  &kp F9                   &kp F10          &kp F11
+&trans          &trans     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &mkp LCLK               &kp RC(RS(UP_ARROW))    &mkp RCLK                &kp PRINTSCREEN  &kp F12
+&trans          &kp RC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &kp RC(RS(LEFT_ARROW))  &kp RC(RS(DOWN_ARROW))  &kp RC(RS(RIGHT_ARROW))  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                      &trans     &trans     &trans                                                                   &trans  &trans                  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
