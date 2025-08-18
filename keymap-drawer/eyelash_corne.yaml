@@ -324,3 +324,11 @@ combos:
   k: Ctl+Sft+$$mdi:arrow-left-bold$$
 - p: [16, 25]
   k: Ctl+Sft+$$mdi:arrow-right-bold$$
+- p: [3, 43]
+  k: $$mdi:pan-up$$
+- p: [43, 16]
+  k: $$mdi:pan-down$$
+- p: [43, 17]
+  k: $$mdi:pan-right$$
+- p: [43, 15]
+  k: $$mdi:pan-left$$
