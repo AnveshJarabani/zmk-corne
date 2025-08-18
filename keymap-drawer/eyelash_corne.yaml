@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - '&key_repeat'
-  - $$mdi:keyboard-tab$$
+  - '4'
   - NUMBER
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -79,10 +79,10 @@ layers:
   - Ctl+$$mdi:arrow-right-bold$$
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-low$$
-  - '&mkp MB4'
-  - $$mdi:mouse-scroll-wheel$$
-  - '&mkp MB5'
+  - Ctl+Z
+  - {t: Ctl+X, h: toggle}
+  - Ctl+C
+  - Ctl+V
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
@@ -142,7 +142,7 @@ layers:
   - '|'
   - '~'
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
@@ -200,8 +200,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
-  - {t: F2, type: held}
-  - {t: F3, type: held}
+  - {t: F2, type: held alternate}
+  - {t: F3, type: held alternate}
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -239,7 +239,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
