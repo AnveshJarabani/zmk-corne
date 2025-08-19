@@ -214,7 +214,7 @@ layers:
   - Ctl+Sft+A
   - Ctl+Sft+$$mdi:arrow-left-bold$$
   - Ctl+Sft+$$mdi:arrow-down-bold$$
-  - Ctl+Sft+$$mdi:arrow-down-bold$$
+  - Ctl+Sft+$$mdi:arrow-right-bold$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
