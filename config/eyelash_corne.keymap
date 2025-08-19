@@ -364,10 +364,10 @@
         arrowselect {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp LS(LC(PAGE_UP))  &kp LS(LC(HOME))        &kp LC(LS(UP_ARROW))    &kp LC(LS(END))         &kp LS(LC(PAGE_DOWN))                                &mmv MOVE_UP                     &kp LC(PAGE_UP)  &kp LC(HOME)            &kp LC(UP_ARROW)        &kp LC(END)              &kp LC(PAGE_DOWN)  &kp F11
-&trans          &kp LC(LS(A))        &kp LC(LS(LEFT_ARROW))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(DOWN_ARROW))  &mkp MB4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &kp LC(LEFT)            &kp RC(DOWN_ARROW)      &kp LC(RIGHT)            &kp PRINTSCREEN    &kp F12
-&trans          &kp RC(Z)            &kp LC(X)               &kp LC(C)               &kp LC(LS(V))           &kp DEL                &kp C_MUTE                    &mmv MOVE_DOWN                   &trans           &kp RC(RS(LEFT_ARROW))  &kp RC(RS(DOWN_ARROW))  &kp RC(RS(RIGHT_ARROW))  &kp SCROLLLOCK     &kp PAUSE_BREAK
-                                                             &trans                  &trans                  &trans                                                                                &trans           &trans                  &trans
+&studio_unlock  &kp LS(LC(PAGE_UP))  &kp LS(LC(HOME))        &kp LC(LS(UP_ARROW))    &kp LC(LS(END))          &kp LS(LC(PAGE_DOWN))                                &mmv MOVE_UP                     &kp LC(PAGE_UP)  &kp LC(HOME)            &kp LC(UP_ARROW)        &kp LC(END)              &kp LC(PAGE_DOWN)  &kp F11
+&trans          &kp LC(LS(A))        &kp LC(LS(LEFT_ARROW))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(RIGHT_ARROW))  &mkp MB4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &kp LC(LEFT)            &kp RC(DOWN_ARROW)      &kp LC(RIGHT)            &kp PRINTSCREEN    &kp F12
+&trans          &kp RC(Z)            &kp LC(X)               &kp LC(C)               &kp LC(LS(V))            &kp DEL                &kp C_MUTE                    &mmv MOVE_DOWN                   &trans           &kp RC(RS(LEFT_ARROW))  &kp RC(RS(DOWN_ARROW))  &kp RC(RS(RIGHT_ARROW))  &kp SCROLLLOCK     &kp PAUSE_BREAK
+                                                             &trans                  &trans                   &trans                                                                                &trans           &trans                  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
