@@ -306,6 +306,11 @@
             bindings = <&mo 1>;
             key-positions = <42 43>;
         };
+
+        ctrlshiftbackspace {
+            bindings = <&kp LC(LS(BACKSPACE))>;
+            key-positions = <26 16>;
+        };
     };
 
     keymap {
