@@ -332,3 +332,5 @@ combos:
   k: $$mdi:pan-left$$
 - p: [42, 43]
   k: NumPad
+- p: [26, 16]
+  k: {t: 'Ctl+Sft+$$mdi:backspace$$', type: backspace}
