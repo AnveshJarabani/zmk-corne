@@ -100,7 +100,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   NumPad:
   - '&soft_off'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - F1
   - F2
   - F3
