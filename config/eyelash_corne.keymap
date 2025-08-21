@@ -172,11 +172,6 @@
             key-positions = <37 38 39>;
         };
 
-        layer4 {
-            bindings = <&mo 1>;
-            key-positions = <3 4>;
-        };
-
         lctrl-2 {
             bindings = <&kp LCTRL>;
             key-positions = <30 31>;
@@ -235,26 +230,6 @@
         ctrlo {
             bindings = <&kp LC(O)>;
             key-positions = <17 10>;
-        };
-
-        widowleft {
-            bindings = <&kp LG(LEFT)>;
-            key-positions = <23 31>;
-        };
-
-        windowright {
-            bindings = <&kp LG(RIGHT_ARROW)>;
-            key-positions = <31 25>;
-        };
-
-        windowup {
-            bindings = <&kp LG(UP_ARROW)>;
-            key-positions = <31 9>;
-        };
-
-        windowdown {
-            bindings = <&kp LG(DOWN_ARROW)>;
-            key-positions = <31 24>;
         };
 
         altf4 {
