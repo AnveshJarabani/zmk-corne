@@ -53,8 +53,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-high$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$', type: held alternate}
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held alternate}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-up$$
   - $$mdi:pan-up$$
   - PgUp
@@ -278,8 +278,6 @@ combos:
   k: Sft+$$mdi:apple-keyboard-command$$
 - p: [37, 38, 39]
   k: Sft+RIGHT WIN
-- p: [3, 4]
-  k: NUMBER
 - p: [30, 31]
   k: $$mdi:apple-keyboard-control$$
 - p: [15, 16]
@@ -304,14 +302,6 @@ combos:
   k: Ctl+$$mdi:arrow-right-bold$$
 - p: [17, 10]
   k: Ctl+O
-- p: [23, 31]
-  k: Gui+$$mdi:arrow-left-bold$$
-- p: [31, 25]
-  k: Gui+$$mdi:arrow-right-bold$$
-- p: [31, 9]
-  k: Gui+$$mdi:arrow-up-bold$$
-- p: [31, 24]
-  k: Gui+$$mdi:arrow-down-bold$$
 - p: [1, 23]
   k: Alt+F4
 - p: [9, 16]
