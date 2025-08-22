@@ -317,20 +317,20 @@
 
         NumPad {
             bindings = <
-&soft_off  &kp LC(LA(DELETE))  &kp F1  &kp F2  &kp F3  &kp F10                            &msc SCRL_UP                     &trans         &kp N1  &kp N2  &kp N3  &trans  &bt BT_NXT
-&trans     &trans              &kp F4  &kp F5  &kp F6  &kp F11            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &trans         &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans     &trans              &kp F7  &kp F8  &kp F9  &kp F12  &trans                    &msc SCRL_DOWN                   &trans         &kp N7  &kp N8  &kp N9  &kp N0  &trans
-                                       &trans  &trans  &trans                                                              &kp LC(ENTER)  &trans  &trans
+&soft_off  &kp LC(LA(DELETE))  &kp F1  &kp F2  &kp F3  &kp F10                            &msc SCRL_UP                     &trans         &kp N1      &kp N2           &kp N3  &trans  &bt BT_NXT
+&trans     &trans              &kp F4  &kp F5  &kp F6  &kp F11            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &trans         &kp N4      &kp N5           &kp N6  &trans  &trans
+&trans     &trans              &kp F7  &kp F8  &kp F9  &kp F12  &trans                    &msc SCRL_DOWN                   &trans         &kp N7      &kp N8           &kp N9  &kp N0  &trans
+                                       &trans  &trans  &trans                                                              &kp LC(ENTER)  &kp DELETE  &kp RIGHT_SHIFT
             >;
         };
 
         specialchars {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT     &kp HASH      &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &out OUT_BLE  &kp LC(S)  &msc SCRL_UP  &msc SCRL_RIGHT  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)     &kp LC(V)        &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                 &kp LCTRL     &kp DEL          &kp TAB                                                               &kp RET    &trans     &trans
+&trans  &kp EXCL      &kp AT     &kp HASH        &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &out OUT_BLE  &kp LC(S)  &msc SCRL_UP    &msc SCRL_RIGHT  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)       &kp LC(V)        &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                 &kp LEFT_SHIFT  &kp DEL          &kp TAB                                                               &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&volume_scroll>;
@@ -342,7 +342,7 @@
 &studio_unlock  &kp LS(LC(PAGE_UP))  &kp LS(LC(HOME))        &kp LC(LS(UP_ARROW))    &kp LC(LS(END))          &kp LS(LC(PAGE_DOWN))                                &mmv MOVE_UP                     &kp LC(PAGE_UP)  &kp LC(HOME)            &kp LC(UP_ARROW)        &kp LC(END)              &kp LC(PAGE_DOWN)  &kp F11
 &trans          &kp LC(LS(A))        &kp LC(LS(LEFT_ARROW))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(RIGHT_ARROW))  &mkp MB4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &kp LC(LEFT)            &kp RC(DOWN_ARROW)      &kp LC(RIGHT)            &kp PRINTSCREEN    &kp F12
 &trans          &kp RC(Z)            &kp LC(X)               &kp LC(C)               &kp LC(LS(V))            &kp DEL                &kp C_MUTE                    &mmv MOVE_DOWN                   &trans           &kp RC(RS(LEFT_ARROW))  &kp RC(RS(DOWN_ARROW))  &kp RC(RS(RIGHT_ARROW))  &kp SCROLLLOCK     &kp PAUSE_BREAK
-                                                             &trans                  &trans                   &trans                                                                                &trans           &trans                  &trans
+                                                             &kp LCTRL               &kp DELETE               &kp TAB                                                                               &trans           &trans                  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
