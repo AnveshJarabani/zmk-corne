@@ -209,7 +209,7 @@ layers:
   - Ctl+$$mdi:arrow-up-bold$$
   - Ctl+END
   - Ctl+PgDn
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+A
   - Ctl+Sft+$$mdi:arrow-left-bold$$
@@ -224,7 +224,7 @@ layers:
   - Ctl+$$mdi:arrow-down-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
   - PRINTSCREEN
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - Ctl+X
