@@ -318,7 +318,7 @@
         NumPad {
             bindings = <
 &soft_off  &kp LC(LA(DELETE))  &kp F1  &kp F2  &kp F3  &kp F10                            &msc SCRL_UP                     &trans   &kp N1      &kp N2           &kp N3  &trans  &bt BT_NXT
-&trans     &trans              &kp F4  &kp F5  &kp F6  &kp F11            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &trans   &kp N4      &kp N5           &kp N6  &trans  &bt BT_CLR
+&trans     &trans              &kp F4  &kp F5  &kp F6  &kp F11            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &trans   &kp N4      &kp N5           &kp N6  &trans  &trans
 &trans     &trans              &kp F7  &kp F8  &kp F9  &kp F12  &trans                    &msc SCRL_DOWN                   &trans   &kp N7      &kp N8           &kp N9  &kp N0  &bt BT_PRV
                                        &trans  &trans  &trans                                                              &kp TAB  &kp DELETE  &kp RIGHT_SHIFT
             >;
@@ -340,12 +340,21 @@
             display-name = "Fn";
             bindings = <
 &studio_unlock  &kp LS(LC(PAGE_UP))  &kp LS(LC(HOME))        &kp LC(LS(UP_ARROW))    &kp LC(LS(END))          &kp LS(LC(PAGE_DOWN))                                &mmv MOVE_UP                     &kp LC(PAGE_UP)  &kp LC(HOME)            &kp LC(UP_ARROW)        &kp LC(END)              &kp LC(PAGE_DOWN)  &trans
-&trans          &kp LC(LS(A))        &kp LC(LS(LEFT_ARROW))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(RIGHT_ARROW))  &mkp MB4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &kp LC(LEFT)            &kp RC(DOWN_ARROW)      &kp LC(RIGHT)            &kp PRINTSCREEN    &trans
+&bt BT_CLR      &kp LC(LS(A))        &kp LC(LS(LEFT_ARROW))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(RIGHT_ARROW))  &mkp MB4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &kp LC(LEFT)            &kp RC(DOWN_ARROW)      &kp LC(RIGHT)            &kp PRINTSCREEN    &trans
 &trans          &kp RC(Z)            &kp LC(X)               &kp LC(C)               &kp LC(LS(V))            &kp DEL                &kp C_MUTE                    &mmv MOVE_DOWN                   &trans           &kp RC(RS(LEFT_ARROW))  &kp RC(RS(DOWN_ARROW))  &kp RC(RS(RIGHT_ARROW))  &kp SCROLLLOCK     &kp PAUSE_BREAK
                                                              &kp LCTRL               &kp DELETE               &kp TAB                                                                               &trans           &trans                  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 };
