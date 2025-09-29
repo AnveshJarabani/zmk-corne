@@ -324,3 +324,7 @@ combos:
   k: NUMBER
 - p: [26, 16]
   k: {t: 'Ctl+Sft+$$mdi:backspace$$', type: backspace}
+- p: [14, 15, 16]
+  k: Ctl+$$mdi:apple-keyboard-option$$
+- p: [24, 25, 26]
+  k: Ctl+$$mdi:apple-keyboard-option$$
