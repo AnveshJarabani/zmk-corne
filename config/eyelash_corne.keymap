@@ -286,6 +286,16 @@
             bindings = <&kp LC(LS(BACKSPACE))>;
             key-positions = <26 16>;
         };
+
+        lctrlalt {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <14 15 16>;
+        };
+
+        rctrlalt {
+            bindings = <&kp RC(RIGHT_ALT)>;
+            key-positions = <24 25 26>;
+        };
     };
 
     keymap {
