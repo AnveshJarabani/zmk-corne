@@ -296,6 +296,11 @@
             bindings = <&kp RC(RIGHT_ALT)>;
             key-positions = <24 25 26>;
         };
+
+        ctrlenter {
+            bindings = <&kp LC(ENTER)>;
+            key-positions = <45 44>;
+        };
     };
 
     keymap {
