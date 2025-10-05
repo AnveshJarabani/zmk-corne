@@ -328,3 +328,5 @@ combos:
   k: Ctl+$$mdi:apple-keyboard-option$$
 - p: [24, 25, 26]
   k: Ctl+$$mdi:apple-keyboard-option$$
+- p: [45, 44]
+  k: {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
