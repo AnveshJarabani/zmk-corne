@@ -45,8 +45,8 @@ layers:
   - '&key_repeat'
   - NUMBER
   - NumPad
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-tab$$'}
+  - {t: '$$mdi:keyboard-return$$', s: '$$mdi:keyboard-tab$$'}
   - SYMBOL
   - Fn
   NUMBER:
