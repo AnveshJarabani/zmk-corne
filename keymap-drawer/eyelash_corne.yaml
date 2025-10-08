@@ -322,3 +322,7 @@ combos:
   k: Ctl+$$mdi:apple-keyboard-option$$
 - p: [45, 44]
   k: {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
+- p: [5, 4]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [7, 8]
+  k: $$mdi:backspace-reverse-outline$$
