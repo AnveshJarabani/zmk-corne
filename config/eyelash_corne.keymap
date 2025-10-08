@@ -311,6 +311,26 @@
             bindings = <&kp DELETE>;
             key-positions = <7 8>;
         };
+
+        lctrlalt {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <32 33>;
+        };
+
+        rctrlalt {
+            bindings = <&kp RC(RIGHT_ALT)>;
+            key-positions = <36 37>;
+        };
+
+        lctrlshiftalt {
+            bindings = <&kp LS(LA(LCTRL))>;
+            key-positions = <17 18>;
+        };
+
+        rctrlshiftalt {
+            bindings = <&kp RS(RA(RCTRL))>;
+            key-positions = <22 23>;
+        };
     };
 
     keymap {
