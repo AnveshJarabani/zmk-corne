@@ -272,9 +272,9 @@ combos:
   k: $$mdi:apple-keyboard-command$$
 - p: [15, 16]
   k: Ctl+$$mdi:apple-keyboard-shift$$
-- p: [24, 23]
+- p: [24, 25]
   k: Ctl+$$mdi:apple-keyboard-shift$$
-- p: [32, 31, 30]
+- p: [31, 30]
   k: Sft+$$mdi:apple-keyboard-command$$
 - p: [38, 39]
   k: Sft+RIGHT WIN
