@@ -154,12 +154,12 @@
 
         lctrlshift {
             bindings = <&kp LC(LEFT_SHIFT)>;
-            key-positions = <15 16 17>;
+            key-positions = <15 16>;
         };
 
         rctrlshift {
             bindings = <&kp RC(RIGHT_SHIFT)>;
-            key-positions = <25 24 23>;
+            key-positions = <24 23>;
         };
 
         lshiftwin {
@@ -169,27 +169,7 @@
 
         rwinshift {
             bindings = <&kp RS(RIGHT_WIN)>;
-            key-positions = <37 38 39>;
-        };
-
-        lctrl-2 {
-            bindings = <&kp LCTRL>;
-            key-positions = <30 31>;
-        };
-
-        lshift-2 {
-            bindings = <&kp LSHIFT>;
-            key-positions = <15 16>;
-        };
-
-        rctrl-2 {
-            bindings = <&kp RCTRL>;
-            key-positions = <39 38>;
-        };
-
-        rshift-2 {
-            bindings = <&kp LSHIFT>;
-            key-positions = <24 25>;
+            key-positions = <38 39>;
         };
 
         moveleftmonitor {
@@ -289,12 +269,12 @@
 
         lctrlalt {
             bindings = <&kp LC(LEFT_ALT)>;
-            key-positions = <14 15 16>;
+            key-positions = <15 16>;
         };
 
         rctrlalt {
             bindings = <&kp RC(RIGHT_ALT)>;
-            key-positions = <24 25 26>;
+            key-positions = <24 25>;
         };
 
         ctrlenter {
