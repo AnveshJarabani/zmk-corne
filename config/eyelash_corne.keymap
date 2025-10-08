@@ -281,6 +281,16 @@
             bindings = <&kp LC(ENTER)>;
             key-positions = <45 44>;
         };
+
+        rdelete {
+            bindings = <&kp DELETE>;
+            key-positions = <5 4>;
+        };
+
+        l-delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
