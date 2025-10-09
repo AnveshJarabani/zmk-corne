@@ -774,6 +774,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="691" y="85" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 </g>
+<g class="combo combopos-42">
+<rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="742" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="747" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -1250,6 +1258,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="691" y="85" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 </g>
+<g class="combo combopos-42">
+<rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="742" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="747" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-NumPad">
@@ -1722,6 +1738,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-41">
 <rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="691" y="85" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
+</g>
+<g class="combo combopos-42">
+<rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="742" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="747" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 </g>
 </g>
@@ -2199,6 +2223,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-41">
 <rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="691" y="85" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
+</g>
+<g class="combo combopos-42">
+<rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="742" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="747" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 </g>
 </g>
@@ -2688,6 +2720,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-41">
 <rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="691" y="85" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
+</g>
+<g class="combo combopos-42">
+<rect rx="6" ry="6" x="210" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="215" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+</g>
+<g class="combo combopos-43">
+<rect rx="6" ry="6" x="742" y="18" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="747" y="22" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
 </g>
 </g>
 </g>

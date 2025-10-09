@@ -330,3 +330,7 @@ combos:
   k: Sft+$$mdi:apple-keyboard-option$$
 - p: [22, 23]
   k: Sft+$$mdi:apple-keyboard-option$$
+- p: [4, 3]
+  k: $$mdi:keyboard-tab$$
+- p: [8, 9]
+  k: $$mdi:keyboard-tab$$
