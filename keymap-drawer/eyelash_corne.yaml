@@ -326,11 +326,3 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [7, 8]
   k: $$mdi:backspace-reverse-outline$$
-- p: [32, 33]
-  k: Ctl+$$mdi:apple-keyboard-option$$
-- p: [36, 37]
-  k: Ctl+$$mdi:apple-keyboard-option$$
-- p: [17, 18]
-  k: Sft+Alt+$$mdi:apple-keyboard-control$$
-- p: [22, 23]
-  k: Sft+AltGr+$$mdi:apple-keyboard-control$$
