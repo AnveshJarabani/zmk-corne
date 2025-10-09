@@ -321,6 +321,16 @@
             bindings = <&kp RS(RIGHT_ALT)>;
             key-positions = <22 23>;
         };
+
+        ltab {
+            bindings = <&kp TAB>;
+            key-positions = <4 3>;
+        };
+
+        rtab {
+            bindings = <&kp TAB>;
+            key-positions = <8 9>;
+        };
     };
 
     keymap {
