@@ -311,6 +311,16 @@
             bindings = <&kp DELETE>;
             key-positions = <7 8>;
         };
+
+        lshiftalt {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <17 18>;
+        };
+
+        rshiftalt {
+            bindings = <&kp RS(RIGHT_ALT)>;
+            key-positions = <22 23>;
+        };
     };
 
     keymap {
