@@ -331,6 +331,16 @@
             bindings = <&kp TAB>;
             key-positions = <8 9>;
         };
+
+        lshifttab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <3 2>;
+        };
+
+        rshifttab {
+            bindings = <&kp RS(TAB)>;
+            key-positions = <9 10>;
+        };
     };
 
     keymap {
