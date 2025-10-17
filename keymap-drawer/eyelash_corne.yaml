@@ -334,3 +334,7 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [8, 9]
   k: $$mdi:keyboard-tab$$
+- p: [3, 2]
+  k: $$mdi:keyboard-tab-reverse$$
+- p: [9, 10]
+  k: Sft+$$mdi:keyboard-tab$$
