@@ -338,3 +338,11 @@ combos:
   k: $$mdi:keyboard-tab-reverse$$
 - p: [9, 10]
   k: Sft+$$mdi:keyboard-tab$$
+- p: [9, 15]
+  k: Sft+$$mdi:arrow-up-bold$$
+- p: [24, 15]
+  k: Sft+$$mdi:arrow-down-bold$$
+- p: [23, 15]
+  k: Sft+$$mdi:arrow-left-bold$$
+- p: [25, 15]
+  k: Sft+$$mdi:arrow-right-bold$$
