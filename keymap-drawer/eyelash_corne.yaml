@@ -368,3 +368,5 @@ combos:
   k: Ctl+PgDn
 - p: [8, 17]
   k: Ctl+HOME
+- p: [17, 10]
+  k: Ctl+END
