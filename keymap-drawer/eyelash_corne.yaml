@@ -352,7 +352,7 @@ combos:
   k: Sft+END
 - p: [15, 11]
   k: Sft+PgDn
-- p: [15, 11]
+- p: [15, 7]
   k: Sft+PgUp
 - p: [8, 16]
   k: Sft+Ctl+HOME
