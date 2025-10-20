@@ -361,6 +361,66 @@
             bindings = <&kp LS(RIGHT_ARROW)>;
             key-positions = <25 15>;
         };
+
+        shifthome {
+            bindings = <&kp LS(HOME)>;
+            key-positions = <15 8>;
+        };
+
+        shiftend {
+            bindings = <&kp LS(END)>;
+            key-positions = <15 10>;
+        };
+
+        shiftpagedown {
+            bindings = <&kp LS(PAGE_DOWN)>;
+            key-positions = <15 11>;
+        };
+
+        shiftpageup {
+            bindings = <&kp LS(PAGE_UP)>;
+            key-positions = <15 11>;
+        };
+
+        ctrlshifthome {
+            bindings = <&kp LS(LC(HOME))>;
+            key-positions = <8 16>;
+        };
+
+        ctrlshiftend {
+            bindings = <&kp LS(LC(END))>;
+            key-positions = <16 10>;
+        };
+
+        ctrlshiftpagedown {
+            bindings = <&kp LS(LC(PAGE_DOWN))>;
+            key-positions = <16 11>;
+        };
+
+        ctrlshiftpageup {
+            bindings = <&kp LS(LC(PAGE_UP))>;
+            key-positions = <16 7>;
+        };
+
+        ctrlpageup {
+            bindings = <&kp LC(PAGE_UP)>;
+            key-positions = <7 17>;
+        };
+
+        ctrlpagedown {
+            bindings = <&kp LC(PAGE_DOWN)>;
+            key-positions = <17 11>;
+        };
+
+        ctrlhome {
+            bindings = <&kp LC(HOME)>;
+            key-positions = <8 17>;
+        };
+
+        ctrlend {
+            bindings = <&kp LC(END)>;
+            key-positions = <10 17>;
+        };
     };
 
     keymap {
