@@ -341,6 +341,26 @@
             bindings = <&kp RS(TAB)>;
             key-positions = <9 10>;
         };
+
+        shiftup {
+            bindings = <&kp LS(UP_ARROW)>;
+            key-positions = <9 15>;
+        };
+
+        shiftdown {
+            bindings = <&kp LS(DOWN_ARROW)>;
+            key-positions = <24 15>;
+        };
+
+        shiftleft {
+            bindings = <&kp LS(LEFT_ARROW)>;
+            key-positions = <23 15>;
+        };
+
+        shiftright {
+            bindings = <&kp LS(RIGHT_ARROW)>;
+            key-positions = <25 15>;
+        };
     };
 
     keymap {
