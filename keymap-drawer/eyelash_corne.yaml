@@ -346,3 +346,27 @@ combos:
   k: Sft+$$mdi:arrow-left-bold$$
 - p: [25, 15]
   k: Sft+$$mdi:arrow-right-bold$$
+- p: [15, 8]
+  k: Sft+HOME
+- p: [15, 10]
+  k: Sft+END
+- p: [15, 11]
+  k: Sft+PgDn
+- p: [15, 11]
+  k: Sft+PgUp
+- p: [8, 16]
+  k: Sft+Ctl+HOME
+- p: [16, 10]
+  k: Sft+Ctl+END
+- p: [16, 11]
+  k: Sft+Ctl+PgDn
+- p: [16, 7]
+  k: Sft+Ctl+PgUp
+- p: [7, 17]
+  k: Ctl+PgUp
+- p: [17, 11]
+  k: Ctl+PgDn
+- p: [8, 17]
+  k: Ctl+HOME
+- p: [10, 17]
+  k: Ctl+END
