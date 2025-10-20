@@ -416,11 +416,6 @@
             bindings = <&kp LC(HOME)>;
             key-positions = <8 17>;
         };
-
-        ctrlend {
-            bindings = <&kp LC(END)>;
-            key-positions = <10 17>;
-        };
     };
 
     keymap {
