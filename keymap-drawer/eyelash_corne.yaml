@@ -292,8 +292,6 @@ combos:
   k: Ctl+$$mdi:arrow-left-bold$$
 - p: [17, 25]
   k: Ctl+$$mdi:arrow-right-bold$$
-- p: [17, 10]
-  k: Ctl+O
 - p: [1, 23]
   k: Alt+F4
 - p: [9, 16]
