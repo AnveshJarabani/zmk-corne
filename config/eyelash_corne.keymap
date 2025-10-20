@@ -379,7 +379,7 @@
 
         shiftpageup {
             bindings = <&kp LS(PAGE_UP)>;
-            key-positions = <15 11>;
+            key-positions = <15 7>;
         };
 
         ctrlshifthome {
