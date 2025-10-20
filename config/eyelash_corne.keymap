@@ -227,11 +227,6 @@
             key-positions = <17 25>;
         };
 
-        ctrlo {
-            bindings = <&kp LC(O)>;
-            key-positions = <17 10>;
-        };
-
         altf4 {
             bindings = <&kp LA(F4)>;
             key-positions = <1 23>;
