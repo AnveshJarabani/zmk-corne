@@ -284,12 +284,12 @@
 
         lctrlalt {
             bindings = <&kp LC(LEFT_ALT)>;
-            key-positions = <15 16>;
+            key-positions = <32 33>;
         };
 
         rctrlalt {
             bindings = <&kp RC(RIGHT_ALT)>;
-            key-positions = <24 25>;
+            key-positions = <36 37>;
         };
 
         ctrlenter {
