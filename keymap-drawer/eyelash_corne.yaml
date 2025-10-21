@@ -314,9 +314,9 @@ combos:
   k: NUMBER
 - p: [26, 16]
   k: {t: 'Ctl+Sft+$$mdi:backspace$$', type: backspace}
-- p: [15, 16]
+- p: [32, 33]
   k: Ctl+$$mdi:apple-keyboard-option$$
-- p: [24, 25]
+- p: [36, 37]
   k: Ctl+$$mdi:apple-keyboard-option$$
 - p: [45, 44]
   k: {t: 'Ctl+$$mdi:keyboard-return$$', type: enter}
