@@ -907,6 +907,30 @@ rect.held, rect.combo.held {
 <tspan x="546" dy="-0.6em">Ctl+</tspan><tspan x="546" dy="1.2em">END</tspan>
 </text>
 </g>
+<g class="combo combopos-61">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">
+<tspan x="56" dy="-0.6em">Sft+</tspan><tspan x="56" dy="1.2em">Alt+R</tspan>
+</text>
+</g>
+<g class="combo combopos-62">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">
+<tspan x="924" dy="-0.6em">AltGr+</tspan><tspan x="924" dy="1.2em">Sft+R</tspan>
+</text>
+</g>
+<g class="combo combopos-63">
+<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
+<text x="56" y="105" class="combo tap">
+<tspan x="56" dy="-0.6em">Alt+</tspan><tspan x="56" dy="1.2em">Sft+V</tspan>
+</text>
+</g>
+<g class="combo combopos-64">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap">
+<tspan x="924" dy="-0.6em" style="font-size: 86%">Sft+</tspan><tspan x="924" dy="1.2em" style="font-size: 86%">AltGr+V</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -1513,6 +1537,30 @@ rect.held, rect.combo.held {
 <tspan x="546" dy="-0.6em">Ctl+</tspan><tspan x="546" dy="1.2em">END</tspan>
 </text>
 </g>
+<g class="combo combopos-61">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">
+<tspan x="56" dy="-0.6em">Sft+</tspan><tspan x="56" dy="1.2em">Alt+R</tspan>
+</text>
+</g>
+<g class="combo combopos-62">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">
+<tspan x="924" dy="-0.6em">AltGr+</tspan><tspan x="924" dy="1.2em">Sft+R</tspan>
+</text>
+</g>
+<g class="combo combopos-63">
+<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
+<text x="56" y="105" class="combo tap">
+<tspan x="56" dy="-0.6em">Alt+</tspan><tspan x="56" dy="1.2em">Sft+V</tspan>
+</text>
+</g>
+<g class="combo combopos-64">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap">
+<tspan x="924" dy="-0.6em" style="font-size: 86%">Sft+</tspan><tspan x="924" dy="1.2em" style="font-size: 86%">AltGr+V</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-NumPad">
@@ -2114,6 +2162,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="532" y="50" width="28" height="26" class="combo"/>
 <text x="546" y="63" class="combo tap">
 <tspan x="546" dy="-0.6em">Ctl+</tspan><tspan x="546" dy="1.2em">END</tspan>
+</text>
+</g>
+<g class="combo combopos-61">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">
+<tspan x="56" dy="-0.6em">Sft+</tspan><tspan x="56" dy="1.2em">Alt+R</tspan>
+</text>
+</g>
+<g class="combo combopos-62">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">
+<tspan x="924" dy="-0.6em">AltGr+</tspan><tspan x="924" dy="1.2em">Sft+R</tspan>
+</text>
+</g>
+<g class="combo combopos-63">
+<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
+<text x="56" y="105" class="combo tap">
+<tspan x="56" dy="-0.6em">Alt+</tspan><tspan x="56" dy="1.2em">Sft+V</tspan>
+</text>
+</g>
+<g class="combo combopos-64">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap">
+<tspan x="924" dy="-0.6em" style="font-size: 86%">Sft+</tspan><tspan x="924" dy="1.2em" style="font-size: 86%">AltGr+V</tspan>
 </text>
 </g>
 </g>
@@ -2721,6 +2793,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="532" y="50" width="28" height="26" class="combo"/>
 <text x="546" y="63" class="combo tap">
 <tspan x="546" dy="-0.6em">Ctl+</tspan><tspan x="546" dy="1.2em">END</tspan>
+</text>
+</g>
+<g class="combo combopos-61">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">
+<tspan x="56" dy="-0.6em">Sft+</tspan><tspan x="56" dy="1.2em">Alt+R</tspan>
+</text>
+</g>
+<g class="combo combopos-62">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">
+<tspan x="924" dy="-0.6em">AltGr+</tspan><tspan x="924" dy="1.2em">Sft+R</tspan>
+</text>
+</g>
+<g class="combo combopos-63">
+<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
+<text x="56" y="105" class="combo tap">
+<tspan x="56" dy="-0.6em">Alt+</tspan><tspan x="56" dy="1.2em">Sft+V</tspan>
+</text>
+</g>
+<g class="combo combopos-64">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap">
+<tspan x="924" dy="-0.6em" style="font-size: 86%">Sft+</tspan><tspan x="924" dy="1.2em" style="font-size: 86%">AltGr+V</tspan>
 </text>
 </g>
 </g>
@@ -3340,6 +3436,30 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="532" y="50" width="28" height="26" class="combo"/>
 <text x="546" y="63" class="combo tap">
 <tspan x="546" dy="-0.6em">Ctl+</tspan><tspan x="546" dy="1.2em">END</tspan>
+</text>
+</g>
+<g class="combo combopos-61">
+<rect rx="6" ry="6" x="42" y="148" width="28" height="26" class="combo"/>
+<text x="56" y="161" class="combo tap">
+<tspan x="56" dy="-0.6em">Sft+</tspan><tspan x="56" dy="1.2em">Alt+R</tspan>
+</text>
+</g>
+<g class="combo combopos-62">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">
+<tspan x="924" dy="-0.6em">AltGr+</tspan><tspan x="924" dy="1.2em">Sft+R</tspan>
+</text>
+</g>
+<g class="combo combopos-63">
+<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
+<text x="56" y="105" class="combo tap">
+<tspan x="56" dy="-0.6em">Alt+</tspan><tspan x="56" dy="1.2em">Sft+V</tspan>
+</text>
+</g>
+<g class="combo combopos-64">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap">
+<tspan x="924" dy="-0.6em" style="font-size: 86%">Sft+</tspan><tspan x="924" dy="1.2em" style="font-size: 86%">AltGr+V</tspan>
 </text>
 </g>
 </g>

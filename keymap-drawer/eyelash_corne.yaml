@@ -368,3 +368,11 @@ combos:
   k: Ctl+HOME
 - p: [17, 10]
   k: Ctl+END
+- p: [28, 29]
+  k: Sft+Alt+R
+- p: [41, 40]
+  k: AltGr+Sft+R
+- p: [13, 14]
+  k: Alt+Sft+V
+- p: [26, 27]
+  k: Sft+AltGr+V
