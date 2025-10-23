@@ -83,7 +83,7 @@ layers:
   - {t: Ctl+X, h: toggle}
   - Ctl+C
   - Ctl+V
-  - Alt+V
+  - Alt+Sft+V
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
   - RGB EFR
