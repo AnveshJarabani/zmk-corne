@@ -416,6 +416,26 @@
             bindings = <&kp LC(END)>;
             key-positions = <17 10>;
         };
+
+        lsharex {
+            bindings = <&kp LS(LA(R))>;
+            key-positions = <28 29>;
+        };
+
+        rsharex {
+            bindings = <&kp RA(RS(R))>;
+            key-positions = <41 40>;
+        };
+
+        lditto {
+            bindings = <&kp LA(LS(V))>;
+            key-positions = <13 14>;
+        };
+
+        rditto {
+            bindings = <&kp RS(RA(V))>;
+            key-positions = <26 27>;
+        };
     };
 
     keymap {
