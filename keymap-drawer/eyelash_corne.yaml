@@ -246,7 +246,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
 combos:
-- p: [30, 29]
+- p: [30, 29, 31]
   k: $$mdi:apple-keyboard-control$$
 - p: [31, 32]
   k: $$mdi:apple-keyboard-command$$
