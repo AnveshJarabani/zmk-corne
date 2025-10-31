@@ -121,6 +121,8 @@
             COMBO_SETTINGS
             bindings = <&kp LCTRL>;
             key-positions = <30 29>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <200>;
         };
 
         windows {
