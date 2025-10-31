@@ -109,10 +109,9 @@
         tap-ms = <100>;
     };
 
-    #define COMBO_SETTINGS
-
-    timeout-ms = <40>;
-    require-prior-idle-ms = <200>;
+    #define COMBO_SETTINGS \
+      timeout-ms = <40>; \
+      require-prior-idle-ms = <200>;
 
     combos {
         compatible = "zmk,combos";
@@ -214,246 +213,295 @@
         };
 
         moveleftmonitor {
+            COMBO_SETTINGS
             bindings = <&kp LS(LG(LEFT))>;
             key-positions = <32 23>;
         };
 
         moverightmonitor {
+            COMBO_SETTINGS
             bindings = <&kp LS(LG(RIGHT_ARROW))>;
             key-positions = <32 25>;
         };
 
         ctrlbackspace {
+            COMBO_SETTINGS
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <26 17>;
         };
 
         ctrlup {
+            COMBO_SETTINGS
             bindings = <&kp LC(UP_ARROW)>;
             key-positions = <17 9>;
         };
 
         ctrldown {
+            COMBO_SETTINGS
             bindings = <&kp LC(DOWN_ARROW)>;
             key-positions = <17 24>;
         };
 
         ctrlleft {
+            COMBO_SETTINGS
             bindings = <&kp LC(LEFT_ARROW)>;
             key-positions = <17 23>;
         };
 
         ctrlright {
+            COMBO_SETTINGS
             bindings = <&kp LC(RIGHT_ARROW)>;
             key-positions = <17 25>;
         };
 
         altf4 {
+            COMBO_SETTINGS
             bindings = <&kp LA(F4)>;
             key-positions = <1 23>;
         };
 
         lctrlshiftup {
+            COMBO_SETTINGS
             bindings = <&kp LC(LS(UP_ARROW))>;
             key-positions = <9 16>;
         };
 
         lctrlshiftdown {
+            COMBO_SETTINGS
             bindings = <&kp LC(LS(DOWN_ARROW))>;
             key-positions = <16 24>;
         };
 
         lctrlshiftleft {
+            COMBO_SETTINGS
             bindings = <&kp LC(LS(LEFT_ARROW))>;
             key-positions = <16 23>;
         };
 
         lctrlshiftright {
+            COMBO_SETTINGS
             bindings = <&kp LC(LS(RIGHT_ARROW))>;
             key-positions = <16 25>;
         };
 
         mousescrollup {
+            COMBO_SETTINGS
             bindings = <&msc SCRL_UP>;
             key-positions = <3 43>;
         };
 
         mousescrolldown {
+            COMBO_SETTINGS
             bindings = <&msc SCRL_DOWN>;
             key-positions = <43 16>;
         };
 
         mousescrollright {
+            COMBO_SETTINGS
             bindings = <&msc SCRL_RIGHT>;
             key-positions = <43 17>;
         };
 
         mousescrollleft {
+            COMBO_SETTINGS
             bindings = <&msc SCRL_LEFT>;
             key-positions = <43 15>;
         };
 
         layer4leftthumb {
+            COMBO_SETTINGS
             bindings = <&mo 1>;
             key-positions = <42 43>;
         };
 
         ctrlshiftbackspace {
+            COMBO_SETTINGS
             bindings = <&kp LC(LS(BACKSPACE))>;
             key-positions = <26 16>;
         };
 
         lctrlalt {
+            COMBO_SETTINGS
             bindings = <&kp LC(LEFT_ALT)>;
             key-positions = <32 33>;
         };
 
         rctrlalt {
+            COMBO_SETTINGS
             bindings = <&kp RC(RIGHT_ALT)>;
             key-positions = <36 37>;
         };
 
         ctrlenter {
+            COMBO_SETTINGS
             bindings = <&kp LC(ENTER)>;
             key-positions = <45 44>;
         };
 
         rdelete {
+            COMBO_SETTINGS
             bindings = <&kp DELETE>;
             key-positions = <5 4>;
         };
 
         ldelete {
+            COMBO_SETTINGS
             bindings = <&kp DELETE>;
             key-positions = <7 8>;
         };
 
         lshiftalt {
+            COMBO_SETTINGS
             bindings = <&kp LS(LEFT_ALT)>;
             key-positions = <17 18>;
         };
 
         rshiftalt {
+            COMBO_SETTINGS
             bindings = <&kp RS(RIGHT_ALT)>;
             key-positions = <22 23>;
         };
 
         ltab {
+            COMBO_SETTINGS
             bindings = <&kp TAB>;
             key-positions = <4 3>;
         };
 
         rtab {
+            COMBO_SETTINGS
             bindings = <&kp TAB>;
             key-positions = <8 9>;
         };
 
         lshifttab {
+            COMBO_SETTINGS
             bindings = <&kp LS(TAB)>;
             key-positions = <3 2>;
         };
 
         rshifttab {
+            COMBO_SETTINGS
             bindings = <&kp RS(TAB)>;
             key-positions = <9 10>;
         };
 
         shiftup {
+            COMBO_SETTINGS
             bindings = <&kp LS(UP_ARROW)>;
             key-positions = <9 15>;
         };
 
         shiftdown {
+            COMBO_SETTINGS
             bindings = <&kp LS(DOWN_ARROW)>;
             key-positions = <24 15>;
         };
 
         shiftleft {
+            COMBO_SETTINGS
             bindings = <&kp LS(LEFT_ARROW)>;
             key-positions = <23 15>;
         };
 
         shiftright {
+            COMBO_SETTINGS
             bindings = <&kp LS(RIGHT_ARROW)>;
             key-positions = <25 15>;
         };
 
         shifthome {
+            COMBO_SETTINGS
             bindings = <&kp LS(HOME)>;
             key-positions = <15 8>;
         };
 
         shiftend {
+            COMBO_SETTINGS
             bindings = <&kp LS(END)>;
             key-positions = <15 10>;
         };
 
         shiftpagedown {
+            COMBO_SETTINGS
             bindings = <&kp LS(PAGE_DOWN)>;
             key-positions = <15 11>;
         };
 
         shiftpageup {
+            COMBO_SETTINGS
             bindings = <&kp LS(PAGE_UP)>;
             key-positions = <15 7>;
         };
 
         ctrlshifthome {
+            COMBO_SETTINGS
             bindings = <&kp LS(LC(HOME))>;
             key-positions = <8 16>;
         };
 
         ctrlshiftend {
+            COMBO_SETTINGS
             bindings = <&kp LS(LC(END))>;
             key-positions = <16 10>;
         };
 
         ctrlshiftpagedown {
+            COMBO_SETTINGS
             bindings = <&kp LS(LC(PAGE_DOWN))>;
             key-positions = <16 11>;
         };
 
         ctrlshiftpageup {
+            COMBO_SETTINGS
             bindings = <&kp LS(LC(PAGE_UP))>;
             key-positions = <16 7>;
         };
 
         ctrlpageup {
+            COMBO_SETTINGS
             bindings = <&kp LC(PAGE_UP)>;
             key-positions = <7 17>;
         };
 
         ctrlpagedown {
+            COMBO_SETTINGS
             bindings = <&kp LC(PAGE_DOWN)>;
             key-positions = <17 11>;
         };
 
         ctrlhome {
+            COMBO_SETTINGS
             bindings = <&kp LC(HOME)>;
             key-positions = <8 17>;
         };
 
         ctrlend {
+            COMBO_SETTINGS
             bindings = <&kp LC(END)>;
             key-positions = <17 10>;
         };
 
         lsharex {
+            COMBO_SETTINGS
             bindings = <&kp LS(LA(R))>;
             key-positions = <28 29>;
         };
 
         rsharex {
+            COMBO_SETTINGS
             bindings = <&kp RA(RS(R))>;
             key-positions = <41 40>;
         };
 
         lditto {
+            COMBO_SETTINGS
             bindings = <&kp LA(LS(V))>;
             key-positions = <13 14>;
         };
 
         rditto {
+            COMBO_SETTINGS
             bindings = <&kp RS(RA(V))>;
             key-positions = <26 27>;
         };
