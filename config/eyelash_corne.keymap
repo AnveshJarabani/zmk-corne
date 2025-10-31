@@ -1,10 +1,9 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 500  // 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -23,7 +22,7 @@
 
 &mmv {
     time-to-max-speed-ms = <500>;
-    acceleration-exponent = <0>;
+    acceleration-exponent = <1>;
     trigger-period-ms = <16>;
     delay-ms = <0>;
 };
@@ -45,6 +44,55 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        volume_scroll: volume_scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
+
+            tap-ms = <100>;
+            label = "VOLUME_SCROLL";
+        };
+
+        rightaltshift: rightaltshift {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RIGHTALTSHIFT";
+            bindings = <&kp L>, <&kp RIGHT_SHIFT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+            keep-mods = <(MOD_RALT)>;
+        };
+
+        leftaltshift: leftaltshift {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LEFTALTSHIFT";
+            bindings = <&kp S>, <&kp LEFT_SHIFT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
+        };
+
+        spaceastab: spaceastab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SPACEASTAB";
+            bindings = <&kp SPACE>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
+        };
+
+        enterastab: enterastab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ENTERASTAB";
+            bindings = <&kp ENTER>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RALT)>;
+            keep-mods = <(MOD_RALT)>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -61,9 +109,10 @@
         tap-ms = <100>;
     };
 
-    #define COMBO_SETTINGS \
-      timeout-ms = <40>; \
-      require-prior-idle-ms = <200>;
+    #define COMBO_SETTINGS
+
+    timeout-ms = <40>;
+    require-prior-idle-ms = <200>;
 
     combos {
         compatible = "zmk,combos";
@@ -143,25 +192,270 @@
         lctrlshift {
             COMBO_SETTINGS
             bindings = <&kp LC(LEFT_SHIFT)>;
-            key-positions = <15 16 17>;
+            key-positions = <15 16>;
         };
 
         rctrlshift {
             COMBO_SETTINGS
             bindings = <&kp RC(RIGHT_SHIFT)>;
-            key-positions = <25 24 23>;
+            key-positions = <24 25>;
         };
 
         lshiftwin {
             COMBO_SETTINGS
             bindings = <&kp LS(LEFT_GUI)>;
-            key-positions = <32 31 30>;
+            key-positions = <31 30>;
         };
 
         rwinshift {
             COMBO_SETTINGS
             bindings = <&kp RS(RIGHT_WIN)>;
-            key-positions = <37 38 39>;
+            key-positions = <38 39>;
+        };
+
+        moveleftmonitor {
+            bindings = <&kp LS(LG(LEFT))>;
+            key-positions = <32 23>;
+        };
+
+        moverightmonitor {
+            bindings = <&kp LS(LG(RIGHT_ARROW))>;
+            key-positions = <32 25>;
+        };
+
+        ctrlbackspace {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <26 17>;
+        };
+
+        ctrlup {
+            bindings = <&kp LC(UP_ARROW)>;
+            key-positions = <17 9>;
+        };
+
+        ctrldown {
+            bindings = <&kp LC(DOWN_ARROW)>;
+            key-positions = <17 24>;
+        };
+
+        ctrlleft {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <17 23>;
+        };
+
+        ctrlright {
+            bindings = <&kp LC(RIGHT_ARROW)>;
+            key-positions = <17 25>;
+        };
+
+        altf4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <1 23>;
+        };
+
+        lctrlshiftup {
+            bindings = <&kp LC(LS(UP_ARROW))>;
+            key-positions = <9 16>;
+        };
+
+        lctrlshiftdown {
+            bindings = <&kp LC(LS(DOWN_ARROW))>;
+            key-positions = <16 24>;
+        };
+
+        lctrlshiftleft {
+            bindings = <&kp LC(LS(LEFT_ARROW))>;
+            key-positions = <16 23>;
+        };
+
+        lctrlshiftright {
+            bindings = <&kp LC(LS(RIGHT_ARROW))>;
+            key-positions = <16 25>;
+        };
+
+        mousescrollup {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <3 43>;
+        };
+
+        mousescrolldown {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <43 16>;
+        };
+
+        mousescrollright {
+            bindings = <&msc SCRL_RIGHT>;
+            key-positions = <43 17>;
+        };
+
+        mousescrollleft {
+            bindings = <&msc SCRL_LEFT>;
+            key-positions = <43 15>;
+        };
+
+        layer4leftthumb {
+            bindings = <&mo 1>;
+            key-positions = <42 43>;
+        };
+
+        ctrlshiftbackspace {
+            bindings = <&kp LC(LS(BACKSPACE))>;
+            key-positions = <26 16>;
+        };
+
+        lctrlalt {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <32 33>;
+        };
+
+        rctrlalt {
+            bindings = <&kp RC(RIGHT_ALT)>;
+            key-positions = <36 37>;
+        };
+
+        ctrlenter {
+            bindings = <&kp LC(ENTER)>;
+            key-positions = <45 44>;
+        };
+
+        rdelete {
+            bindings = <&kp DELETE>;
+            key-positions = <5 4>;
+        };
+
+        ldelete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
+
+        lshiftalt {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <17 18>;
+        };
+
+        rshiftalt {
+            bindings = <&kp RS(RIGHT_ALT)>;
+            key-positions = <22 23>;
+        };
+
+        ltab {
+            bindings = <&kp TAB>;
+            key-positions = <4 3>;
+        };
+
+        rtab {
+            bindings = <&kp TAB>;
+            key-positions = <8 9>;
+        };
+
+        lshifttab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <3 2>;
+        };
+
+        rshifttab {
+            bindings = <&kp RS(TAB)>;
+            key-positions = <9 10>;
+        };
+
+        shiftup {
+            bindings = <&kp LS(UP_ARROW)>;
+            key-positions = <9 15>;
+        };
+
+        shiftdown {
+            bindings = <&kp LS(DOWN_ARROW)>;
+            key-positions = <24 15>;
+        };
+
+        shiftleft {
+            bindings = <&kp LS(LEFT_ARROW)>;
+            key-positions = <23 15>;
+        };
+
+        shiftright {
+            bindings = <&kp LS(RIGHT_ARROW)>;
+            key-positions = <25 15>;
+        };
+
+        shifthome {
+            bindings = <&kp LS(HOME)>;
+            key-positions = <15 8>;
+        };
+
+        shiftend {
+            bindings = <&kp LS(END)>;
+            key-positions = <15 10>;
+        };
+
+        shiftpagedown {
+            bindings = <&kp LS(PAGE_DOWN)>;
+            key-positions = <15 11>;
+        };
+
+        shiftpageup {
+            bindings = <&kp LS(PAGE_UP)>;
+            key-positions = <15 7>;
+        };
+
+        ctrlshifthome {
+            bindings = <&kp LS(LC(HOME))>;
+            key-positions = <8 16>;
+        };
+
+        ctrlshiftend {
+            bindings = <&kp LS(LC(END))>;
+            key-positions = <16 10>;
+        };
+
+        ctrlshiftpagedown {
+            bindings = <&kp LS(LC(PAGE_DOWN))>;
+            key-positions = <16 11>;
+        };
+
+        ctrlshiftpageup {
+            bindings = <&kp LS(LC(PAGE_UP))>;
+            key-positions = <16 7>;
+        };
+
+        ctrlpageup {
+            bindings = <&kp LC(PAGE_UP)>;
+            key-positions = <7 17>;
+        };
+
+        ctrlpagedown {
+            bindings = <&kp LC(PAGE_DOWN)>;
+            key-positions = <17 11>;
+        };
+
+        ctrlhome {
+            bindings = <&kp LC(HOME)>;
+            key-positions = <8 17>;
+        };
+
+        ctrlend {
+            bindings = <&kp LC(END)>;
+            key-positions = <17 10>;
+        };
+
+        lsharex {
+            bindings = <&kp LS(LA(R))>;
+            key-positions = <28 29>;
+        };
+
+        rsharex {
+            bindings = <&kp RA(RS(R))>;
+            key-positions = <41 40>;
+        };
+
+        lditto {
+            bindings = <&kp LA(LS(V))>;
+            key-positions = <13 14>;
+        };
+
+        rditto {
+            bindings = <&kp RS(RA(V))>;
+            key-positions = <26 27>;
         };
     };
 
@@ -171,46 +465,55 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E    &kp R  &kp T                                         &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O    &kp P          &kp SEMI
-&kp ESC  &kp A  &kp S  &kp D    &kp F  &kp G                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp BACKSPACE  &kp SQT
-&td0     &kp Z  &kp X  &kp C    &kp V  &kp B      &msc MOVE_Y(10)                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RCTRL
-                       &kp TAB  &mo 1  &kp SPACE                                                                      &lt 3 ENTER  &mo 2  &mo 3
+&kp TAB  &kp Q  &kp W          &kp E  &kp R  &kp T                                           &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O           &kp P          &kp SEMI
+&kp ESC  &kp A  &leftaltshift  &kp D  &kp F  &kp G                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &rightaltshift  &kp BACKSPACE  &kp SQT
+&td0     &kp Z  &kp X          &kp C  &kp V  &kp B        &msc MOVE_Y(10)                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT         &kp FSLH       &key_repeat
+                               &mo 1  &mo 2  &spaceastab                                                                      &enterastab  &mo 3  &mo 4
             >;
 
             sensor-bindings = <&scroll_encoder>;
         };
 
-        lower_layer {
+        arrowandmouse {
             display-name = "NUMBER";
             bindings = <
-&trans  &rgb_ug RGB_ON   &kp N1        &kp NUMBER_2  &kp NUMBER_3  &rgb_ug RGB_EFF                            &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_DOWN  &kp BSPC
-&trans  &bl BL_ON        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DELETE                 &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LEFT         &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp HOME       &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &kp N7        &kp N8        &kp N9        &kp N0           &trans                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END        &trans
-                                       &trans        &trans        &trans                                                                      &kp INS          &kp DEL          &trans
+&trans  &kp C_VOLUME_UP  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP                              &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_DOWN  &kp BSPC
+&trans  &kp LC(A)        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LC(LEFT)     &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp RC(RIGHT)  &kp PG_UP
+&trans  &kp LC(Z)        &kt LC(X)       &kp LC(C)       &kp LC(V)        &kp LA(LS(V))   &trans                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END        &trans
+                                         &trans          &kp DEL          &trans                                                                     &kp TAB          &kp DELETE       &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
         };
 
-        raise_layer {
+        NumPad {
+            bindings = <
+&soft_off  &kp LC(LA(DELETE))  &kp F1  &kp F2  &kp F3  &kp F10                            &msc SCRL_UP                     &msc SCRL_UP    &kp N1      &kp N2           &kp N3  &trans         &bt BT_NXT
+&trans     &trans              &kp F4  &kp F5  &kp F6  &kp F11            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &msc SCRL_LEFT  &kp N4      &kp N5           &kp N6  &kp BACKSPACE  &msc SCRL_RIGHT
+&trans     &trans              &kp F7  &kp F8  &kp F9  &kp F12  &trans                    &msc SCRL_DOWN                   &msc SCRL_DOWN  &kp N7      &kp N8           &kp N9  &kp N0         &bt BT_PRV
+                                       &trans  &trans  &trans                                                              &kp TAB         &kp DELETE  &kp RIGHT_SHIFT
+            >;
+        };
+
+        specialchars {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT          &kp HASH        &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_NXT    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE    &mmv MOVE_DOWN  &none            &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                      &trans          &trans           &kp SPACE                                                             &kp RET    &trans     &trans
+&trans  &kp EXCL      &kp AT     &kp HASH        &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &out OUT_BLE  &kp LC(S)  &msc SCRL_UP    &msc SCRL_RIGHT  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)       &kp LC(V)        &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                 &kp LEFT_SHIFT  &kp DEL          &kp TAB                                                               &kp RET    &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&volume_scroll>;
         };
 
-        layer_3 {
+        arrowselect {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&studio_unlock  &kp LS(LC(PAGE_UP))  &kp LS(LC(HOME))        &kp LC(LS(UP_ARROW))    &kp LC(LS(END))          &kp LS(LC(PAGE_DOWN))                                &mmv MOVE_UP                     &kp LC(PAGE_UP)  &kp LC(HOME)            &kp LC(UP_ARROW)        &kp LC(END)              &kp LC(PAGE_DOWN)  &trans
+&bt BT_CLR      &kp LC(LS(A))        &kp LC(LS(LEFT_ARROW))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(RIGHT_ARROW))  &mkp MB4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &kp LC(LEFT)            &kp RC(DOWN_ARROW)      &kp LC(RIGHT)            &kp PRINTSCREEN    &trans
+&trans          &kp RC(Z)            &kp LC(X)               &kp LC(C)               &kp LC(LS(V))            &kp DEL                &kp C_MUTE                    &mmv MOVE_DOWN                   &trans           &kp RC(RS(LEFT_ARROW))  &kp RC(RS(DOWN_ARROW))  &kp RC(RS(RIGHT_ARROW))  &kp SCROLLLOCK     &kp PAUSE_BREAK
+                                                             &kp LCTRL               &kp DELETE               &kp TAB                                                                               &trans           &trans                  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
