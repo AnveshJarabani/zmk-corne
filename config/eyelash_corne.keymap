@@ -120,7 +120,7 @@
         lctrl {
             COMBO_SETTINGS
             bindings = <&kp LCTRL>;
-            key-positions = <30 29>;
+            key-positions = <30 29 31>;
         };
 
         windows {
