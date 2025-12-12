@@ -1,0 +1,8 @@
+board:
+  name: eyelash_corne
+  vendor: eyelash
+  socs:
+    - name: nrf52840
+  variants:
+    - name: left
+    - name: right
