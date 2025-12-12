@@ -93,6 +93,26 @@
             mods = <(MOD_RALT)>;
             keep-mods = <(MOD_RALT)>;
         };
+
+        layer_2_tab: layer_2_tab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LAYER_2_TAB";
+            bindings = <&mo 2>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
+        };
+
+        layer_3_tab: layer_3_tab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LAYER_3_TAB";
+            bindings = <&mo 3>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -109,9 +129,10 @@
         tap-ms = <100>;
     };
 
-    #define COMBO_SETTINGS \
-      timeout-ms = <40>; \
-      require-prior-idle-ms = <200>;
+    #define COMBO_SETTINGS
+
+    timeout-ms = <40>;
+    require-prior-idle-ms = <200>;
 
     combos {
         compatible = "zmk,combos";
@@ -513,10 +534,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB  &kp Q  &kp W          &kp E  &kp R  &kp T                                           &mmv MOVE_UP                     &kp Y        &kp U  &kp I      &kp O           &kp P          &kp SEMI
-&kp ESC  &kp A  &leftaltshift  &kp D  &kp F  &kp G                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &rightaltshift  &kp BACKSPACE  &kp SQT
-&td0     &kp Z  &kp X          &kp C  &kp V  &kp B        &msc MOVE_Y(10)                    &mmv MOVE_DOWN                   &kp N        &kp M  &kp COMMA  &kp DOT         &kp FSLH       &key_repeat
-                               &mo 1  &mo 2  &spaceastab                                                                      &enterastab  &mo 3  &mo 4
+&kp TAB  &kp Q  &kp W          &kp E  &kp R         &kp T                                         &mmv MOVE_UP                     &kp Y      &kp U         &kp I      &kp O           &kp P          &kp SEMI
+&kp ESC  &kp A  &leftaltshift  &kp D  &kp F         &kp G                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H      &kp J         &kp K      &rightaltshift  &kp BACKSPACE  &kp SQT
+&td0     &kp Z  &kp X          &kp C  &kp V         &kp B      &msc MOVE_Y(10)                    &mmv MOVE_DOWN                   &kp N      &kp M         &kp COMMA  &kp DOT         &kp FSLH       &key_repeat
+                               &mo 1  &layer_2_tab  &kp SPACE                                                                      &kp ENTER  &layer_3_tab  &mo 4
             >;
 
             sensor-bindings = <&scroll_encoder>;
