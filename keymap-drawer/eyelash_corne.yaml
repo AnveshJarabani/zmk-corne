@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - '&key_repeat'
   - NUMBER
-  - NumPad
-  - {t: '$$mdi:keyboard-space$$', s: '$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:keyboard-return$$', s: '$$mdi:keyboard-tab$$'}
-  - SYMBOL
+  - {t: NumPad, s: '$$mdi:keyboard-tab$$'}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: SYMBOL, s: '$$mdi:keyboard-tab$$'}
   - Fn
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
