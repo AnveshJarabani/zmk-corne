@@ -110,18 +110,8 @@
             bindings = <&mo 3>, <&kp TAB>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
-            keep-mods = <(MOD_LALT)>;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-mod-morph";
-            label = "NEW_BEHAVIOR";
-            bindings = <&mo 3>, <&kp TAB>;
-
-            #binding-cells = <0>;
-            keep-mods = <(MOD_RALT)>;
             mods = <(MOD_RALT)>;
+            keep-mods = <(MOD_RALT)>;
         };
     };
 
