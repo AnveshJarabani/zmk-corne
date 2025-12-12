@@ -29,8 +29,10 @@ config BOARD_ENABLE_DCDC_HV
     select SOC_DCDC_NRF52X_HV
     depends on (BOARD_EYELASH_CORNE_LEFT || BOARD_EYELASH_CORNE_RIGHT)
 
-config ZMK_SLEEP
-    default y
+# ZMK_SLEEP requires HAS_POWEROFF which may not be available
+# Users can enable it in eyelash_corne.conf if the hardware supports it
+# config ZMK_SLEEP
+#     default y
 
 config ZMK_SPLIT
     default y
