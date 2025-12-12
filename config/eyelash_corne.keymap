@@ -129,10 +129,9 @@
         tap-ms = <100>;
     };
 
-    #define COMBO_SETTINGS
-
-    timeout-ms = <40>;
-    require-prior-idle-ms = <200>;
+    #define COMBO_SETTINGS \
+      timeout-ms = <40>; \
+      require-prior-idle-ms = <200>;
 
     combos {
         compatible = "zmk,combos";
