@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: MIT
 #
 
+# SOC Configuration - needed for HAL initialization
+CONFIG_SOC_SERIES_NRF52X=y
+
 # Enable 32kHz crystal
 CONFIG_CLOCK_CONTROL_NRF_K32SRC_XTAL=y
 CONFIG_CLOCK_CONTROL_NRF_K32SRC_30PPM=y
