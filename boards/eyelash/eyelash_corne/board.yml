@@ -3,19 +3,25 @@ boards:
     vendor: eyelash
     socs:
       - name: nrf52840
+        variant: qiaa
     revision:
       format: major.minor.patch
       default: 1.0.0
       exact: false
       revisions:
         - name: 1.0.0
+          qualifiers:
+            - nrf52840
   - name: eyelash_corne_right
     vendor: eyelash
     socs:
       - name: nrf52840
+        variant: qiaa
     revision:
       format: major.minor.patch
       default: 1.0.0
       exact: false
       revisions:
         - name: 1.0.0
+          qualifiers:
+            - nrf52840
