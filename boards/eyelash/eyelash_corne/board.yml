@@ -3,6 +3,8 @@ boards:
     vendor: eyelash
     socs:
       - name: nrf52840
+        variants:
+          - name: qiaa
     revision:
       format: major.minor.patch
       default: 1.0.0
@@ -13,6 +15,8 @@ boards:
     vendor: eyelash
     socs:
       - name: nrf52840
+        variants:
+          - name: qiaa
     revision:
       format: major.minor.patch
       default: 1.0.0
