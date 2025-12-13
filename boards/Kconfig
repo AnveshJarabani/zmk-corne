@@ -1,5 +1,0 @@
-# SPDX-License-Identifier: MIT
-# Copyright (c) 2024 The ZMK Contributors
-
-# Source board-specific Kconfig files
-osource "$(BOARD_DIR)/Kconfig.$(BOARD)"
