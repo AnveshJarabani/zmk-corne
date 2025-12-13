@@ -15,6 +15,9 @@ endif # BOARD_EYELASH_CORNE_LEFT
 
 if BOARD_EYELASH_CORNE_LEFT || BOARD_EYELASH_CORNE_RIGHT
 
+# Select the SOC - required for HWMv2
+select SOC_NRF52840_QIAA
+
 config BOARD
     default "eyelash_corne"
 
