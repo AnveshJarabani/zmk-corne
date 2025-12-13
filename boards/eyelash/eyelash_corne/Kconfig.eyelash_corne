@@ -3,6 +3,18 @@
 # SPDX-License-Identifier: MIT
 #
 
+config BOARD_EYELASH_CORNE_LEFT
+    select SOC_NRF52840_QIAA
+    imply RETAINED_MEM
+    imply RETENTION
+    imply RETENTION_BOOT_MODE
+
+config BOARD_EYELASH_CORNE_RIGHT
+    select SOC_NRF52840_QIAA
+    imply RETAINED_MEM
+    imply RETENTION
+    imply RETENTION_BOOT_MODE
+
 if BOARD_EYELASH_CORNE_LEFT
 
 config ZMK_KEYBOARD_NAME
@@ -14,9 +26,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif # BOARD_EYELASH_CORNE_LEFT
 
 if BOARD_EYELASH_CORNE_LEFT || BOARD_EYELASH_CORNE_RIGHT
-
-# Select the SOC - required for HWMv2
-select SOC_NRF52840_QIAA
 
 config BOARD
     default "eyelash_corne"
