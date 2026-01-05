@@ -1,5 +1,15 @@
 build/
 zmk/
+zephyr/*
+!zephyr/module.yml
 modules/
 tools/
 .west/
+*.log
+build-local.sh
+quick-build.sh
+test-kconfig.sh
+firmware.zip
+firmware_temp/
+firmware/
+.workspace/

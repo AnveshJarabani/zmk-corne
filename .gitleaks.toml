@@ -1,0 +1,13 @@
+# Gitleaks configuration for ZMK firmware project
+title = "gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Allowlist for ZMK firmware project"
+paths = [
+    '''\.uf2$''',
+    '''\.bin$''',
+    '''\.hex$''',
+]
