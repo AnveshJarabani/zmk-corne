@@ -131,7 +131,8 @@
 
     #define COMBO_SETTINGS \
       timeout-ms = <40>; \
-      require-prior-idle-ms = <200>;
+      require-prior-idle-ms = <200>; \
+      layers = <0 1 2 3 4>;
 
     combos {
         compatible = "zmk,combos";
