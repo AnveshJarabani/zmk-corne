@@ -578,10 +578,22 @@
         arrowselect {
             display-name = "Fn";
             bindings = <
-&soft_off       &kp LS(LC(PAGE_UP))  &kp LS(LC(HOME))        &kp LC(LS(UP_ARROW))    &kp LC(LS(END))          &kp LS(LC(PAGE_DOWN))                                &mmv MOVE_UP                     &kp LC(PAGE_UP)  &kp LC(HOME)            &kp LC(UP_ARROW)        &kp LC(END)              &kp LC(PAGE_DOWN)  &bt BT_CLR
-&bt BT_DISC 0   &kp LC(LS(A))        &kp LC(LS(LEFT_ARROW))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(RIGHT_ARROW))  &mkp MB4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &kp LC(LEFT)            &kp RC(DOWN_ARROW)      &kp LC(RIGHT)            &kp PRINTSCREEN    &trans
+&soft_off       &kp LS(LC(PAGE_UP))  &kp LS(LC(HOME))        &kp LC(LS(UP_ARROW))    &kp LC(LS(END))          &kp LS(LC(PAGE_DOWN))                                &mmv MOVE_UP                     &kp LC(PAGE_UP)  &kp LC(HOME)            &kp LC(UP_ARROW)        &kp LC(END)              &kp LC(PAGE_DOWN)  &mo 5
+&bt BT_DISC 0   &kp LC(LS(A))        &kp LC(LS(LEFT_ARROW))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(RIGHT_ARROW))  &mkp MB4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &kp LC(LEFT)            &kp RC(DOWN_ARROW)      &kp LC(RIGHT)            &kp PRINTSCREEN    &mo 5
 &trans          &kp RC(Z)            &kp LC(X)               &kp LC(C)               &kp LC(LS(V))            &kp DEL                &kp C_MUTE                    &mmv MOVE_DOWN                   &trans           &kp RC(RS(LEFT_ARROW))  &kp RC(RS(DOWN_ARROW))  &kp RC(RS(RIGHT_ARROW))  &kp SCROLLLOCK     &kp PAUSE_BREAK
-                                                             &kp LCTRL               &kp DELETE               &kp TAB                                                                               &trans           &trans                  &trans
+                                                             &kp LCTRL               &kp DELETE               &kp TAB                                                                               &trans           &trans                  &mo 5
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        quarantine {
+            display-name = "Quarantine";
+            bindings = <
+&bt BT_CLR     &trans  &trans  &trans  &trans  &trans                            &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans  &trans                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
+                               &trans  &trans  &trans                                                             &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
