@@ -526,6 +526,30 @@
             bindings = <&kp RS(RA(V))>;
             key-positions = <26 27>;
         };
+
+        winaltup {
+            COMBO_SETTINGS
+            bindings = <&kp LA(UP_ARROW)>;
+            key-positions = <33 9>;
+        };
+
+        winaltdown {
+            COMBO_SETTINGS
+            bindings = <&kp LA(DOWN_ARROW)>;
+            key-positions = <33 24>;
+        };
+
+        winaltleft {
+            COMBO_SETTINGS
+            bindings = <&kp LA(LEFT_ARROW)>;
+            key-positions = <33 23>;
+        };
+
+        winaltright {
+            COMBO_SETTINGS
+            bindings = <&kp LA(RIGHT_ARROW)>;
+            key-positions = <33 25>;
+        };
     };
 
     keymap {
