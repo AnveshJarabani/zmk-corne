@@ -490,3 +490,15 @@ combos:
 - p: [26, 27]
   k: Sft+AltGr+V
   l: [QWERTY, NUMBER, NumPad, SYMBOL, Fn]
+- p: [33, 9]
+  k: Alt+$$mdi:arrow-up-bold$$
+  l: [QWERTY, NUMBER, NumPad, SYMBOL, Fn]
+- p: [33, 24]
+  k: Alt+$$mdi:arrow-down-bold$$
+  l: [QWERTY, NUMBER, NumPad, SYMBOL, Fn]
+- p: [33, 23]
+  k: Alt+$$mdi:arrow-left-bold$$
+  l: [QWERTY, NUMBER, NumPad, SYMBOL, Fn]
+- p: [33, 25]
+  k: Alt+$$mdi:arrow-right-bold$$
+  l: [QWERTY, NUMBER, NumPad, SYMBOL, Fn]
