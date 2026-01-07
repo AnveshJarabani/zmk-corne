@@ -198,6 +198,39 @@ zmk-corne/
 └── .gitignore                     # Ignored files
 ```
 
+## Key Position Map
+
+**CRITICAL: The Eyelash Corne has 48 total key positions (including mouse movement keys in the center).**
+
+### Position Numbering (QWERTY Layout)
+
+```
+Left Half                    Center (Mouse)           Right Half
+Row 0 (Top):
+0:TAB  1:Q  2:W  3:E  4:R  5:T    6:MOVE_UP           7:Y  8:U  9:I  10:O  11:P  12:SEMI
+
+Row 1 (Home):
+13:ESC 14:A 15:S 16:D 17:F 18:G   19:MOVE_L 20:LCLK 21:MOVE_R   22:H 23:J 24:K 25:L 26:BSPC 27:SQT
+
+Row 2 (Bottom):
+28:SHIFT 29:Z 30:X 31:C 32:V 33:B   34:SCROLL 35:MOVE_D   36:N 37:M 38:COMMA 39:DOT 40:FSLH 41:REPEAT
+
+Row 3 (Thumbs):
+         42:mo1 43:layer2 44:SPACE                    45:ENTER 46:layer3 47:mo4
+```
+
+### Quick Position Reference
+
+**Commonly used keys for combos:**
+- **V key**: Position 32 (row 2, 5th key from left on left half)
+- **B key**: Position 33 (row 2, 6th/rightmost key on left half)
+- **I key**: Position 9 (row 0, top right)
+- **J key**: Position 23 (row 1, home row right)
+- **K key**: Position 24 (row 1, home row right)
+- **L key**: Position 25 (row 1, home row right)
+
+**Important Note:** When defining combos, always count the mouse movement keys in the center. They occupy positions 6, 19-21, 34-35.
+
 ## Keymap Layers
 
 Current configuration has 5 layers (0-4):
