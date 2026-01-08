@@ -145,7 +145,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab-reverse$$
-  - $$mdi:backspace-reverse-outline$$
+  - Sft+$$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -191,7 +191,7 @@ layers:
   - '|'
   - '~'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - Sft+$$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
