@@ -585,7 +585,7 @@
 &soft_off  &kp LC(LA(DELETE))  &kp F1  &kp F2  &kp F3  &kp F10                            &msc SCRL_UP                     &msc SCRL_UP    &kp N1      &kp N2           &kp N3  &kp K_APP      &bt BT_NXT
 &trans     &trans              &kp F4  &kp F5  &kp F6  &kp F11            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &msc SCRL_LEFT  &kp N4      &kp N5           &kp N6  &kp BACKSPACE  &msc SCRL_RIGHT
 &trans     &trans              &kp F7  &kp F8  &kp F9  &kp F12  &trans                    &msc SCRL_DOWN                   &msc SCRL_DOWN  &kp N7      &kp N8           &kp N9  &kp N0         &bt BT_PRV
-                                       &trans  &trans  &trans                                                              &kp A           &kp N9          &kp RIGHT_SHIFT
+                                       &trans  &trans  &trans                                                              &kp LS(TAB)     &kp LS(DELETE)  &kp RIGHT_SHIFT
             >;
         };
 
