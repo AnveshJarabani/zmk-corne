@@ -561,7 +561,7 @@
 &kp TAB  &kp Q  &kp W          &kp E  &kp R         &kp T                                         &mmv MOVE_UP                     &kp Y      &kp U         &kp I      &kp O           &kp P          &kp SEMI
 &kp ESC  &kp A  &leftaltshift  &kp D  &kp F         &kp G                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H      &kp J         &kp K      &rightaltshift  &kp BACKSPACE  &kp SQT
 &td0     &kp Z  &kp X          &kp C  &kp V         &kp B      &msc MOVE_Y(10)                    &mmv MOVE_DOWN                   &kp N      &kp M         &kp COMMA  &kp DOT         &kp FSLH       &key_repeat
-                               &mo 1  &mo 2         &kp SPACE                                                                      &kp ENTER  &layer_3_tab  &mo 4
+                               &mo 1  &layer_2_tab  &kp SPACE                                                                      &kp ENTER  &layer_3_tab  &mo 4
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -573,7 +573,7 @@
 &trans  &kp C_VOLUME_UP  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &msc SCRL_UP                              &msc SCRL_UP                     &kp PAGE_UP      &kp HOME         &kp UP_ARROW     &kp END          &kp PAGE_DOWN  &kp BSPC
 &trans  &kp LC(A)        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &kp LC(LEFT)     &kp LEFT_ARROW   &kp DOWN         &kp RIGHT        &kp RC(RIGHT)  &kp PG_UP
 &trans  &kp LC(Z)        &kt LC(X)       &kp LC(C)       &kp LC(V)        &kp LA(LS(V))   &trans                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END        &trans
-                                         &trans          &kp DEL          &trans                                                                     &kp TAB          &kp DELETE       &kp RCTRL
+                                         &trans          &kp DEL          &trans                                                                     &kp TAB          &kp DELETE       &kp LS(TAB)
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -585,7 +585,7 @@
 &soft_off  &kp LC(LA(DELETE))  &kp F1  &kp F2  &kp F3  &kp F10                            &msc SCRL_UP                     &msc SCRL_UP    &kp N1      &kp N2           &kp N3  &kp K_APP      &bt BT_NXT
 &trans     &trans              &kp F4  &kp F5  &kp F6  &kp F11            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &msc SCRL_LEFT  &kp N4      &kp N5           &kp N6  &kp BACKSPACE  &msc SCRL_RIGHT
 &trans     &trans              &kp F7  &kp F8  &kp F9  &kp F12  &trans                    &msc SCRL_DOWN                   &msc SCRL_DOWN  &kp N7      &kp N8           &kp N9  &kp N0         &bt BT_PRV
-                                       &trans  &trans  &trans                                                              &kp LS(TAB)     &kp LS(DELETE)  &kp RIGHT_SHIFT
+                                       &trans  &trans  &trans                                                              &kp LS(TAB)     &kp LS(DELETE)  &kp LS(TAB)
             >;
         };
 
