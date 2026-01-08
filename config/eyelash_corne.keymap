@@ -584,7 +584,7 @@
 &soft_off  &kp LC(LA(DELETE))  &kp F1  &kp F2  &kp F3  &kp F10                            &msc SCRL_UP                     &msc SCRL_UP    &kp N1      &kp N2           &kp N3  &kp K_APP      &bt BT_NXT
 &trans     &trans              &kp F4  &kp F5  &kp F6  &kp F11            &msc SCRL_LEFT  &mkp RCLK       &msc SCRL_RIGHT  &msc SCRL_LEFT  &kp N4      &kp N5           &kp N6  &kp BACKSPACE  &msc SCRL_RIGHT
 &trans     &trans              &kp F7  &kp F8  &kp F9  &kp F12  &trans                    &msc SCRL_DOWN                   &msc SCRL_DOWN  &kp N7      &kp N8           &kp N9  &kp N0         &bt BT_PRV
-                                       &trans  &trans  &trans                                                              &kp TAB         &kp DELETE  &kp RIGHT_SHIFT
+                                       &trans  &trans  &trans                                                              &kp LS(TAB)     &kp DELETE  &kp RIGHT_SHIFT
             >;
         };
 
@@ -594,7 +594,7 @@
 &trans  &kp EXCL      &kp AT     &kp HASH        &kp DLLR         &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &out OUT_BLE  &kp LC(S)  &msc SCRL_UP    &msc SCRL_RIGHT  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)       &kp LC(V)        &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                 &kp LEFT_SHIFT  &kp DEL          &kp TAB                                                               &kp RET    &trans     &trans
+                                 &kp LEFT_SHIFT  &kp DEL          &kp LS(TAB)                                                           &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&volume_scroll>;
