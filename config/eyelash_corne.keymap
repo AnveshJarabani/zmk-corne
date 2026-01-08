@@ -94,6 +94,15 @@
             keep-mods = <(MOD_RALT)>;
         };
 
+        layer_2_tab: layer_2_tab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LAYER_2_TAB";
+            bindings = <&mo 2>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
+        };
 
         layer_3_tab: layer_3_tab {
             compatible = "zmk,behavior-mod-morph";
