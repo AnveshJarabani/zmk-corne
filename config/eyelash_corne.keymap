@@ -329,12 +329,6 @@
             key-positions = <43 15>;
         };
 
-        layer4leftthumb {
-            COMBO_SETTINGS
-            bindings = <&mo 1>;
-            key-positions = <42 43>;
-        };
-
         ctrlshiftbackspace {
             COMBO_SETTINGS
             bindings = <&kp LC(LS(BACKSPACE))>;
