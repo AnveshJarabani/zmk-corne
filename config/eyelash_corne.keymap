@@ -550,6 +550,18 @@
             bindings = <&kp LA(LG(RIGHT_ARROW))>;
             key-positions = <33 25>;
         };
+
+        leftthumbctrlshiftalt {
+            COMBO_SETTINGS
+            bindings = <&kp LC(LS(LEFT_ALT))>;
+            key-positions = <42 43>;
+        };
+
+        rightthumbctrlshiftalt {
+            COMBO_SETTINGS
+            bindings = <&kp RC(RS(RIGHT_ALT))>;
+            key-positions = <46 47>;
+        };
     };
 
     keymap {
