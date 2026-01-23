@@ -93,7 +93,7 @@ layers:
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - $$mdi:backspace-reverse-outline$$
@@ -391,9 +391,6 @@ combos:
 - p: [43, 15]
   k: $$mdi:pan-left$$
   l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
-- p: [42, 43]
-  k: NUMBER
-  l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
 - p: [26, 16]
   k: {t: 'Ctl+Sft+$$mdi:backspace$$', type: backspace}
   l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
@@ -423,12 +420,6 @@ combos:
   l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
 - p: [8, 9]
   k: $$mdi:keyboard-tab$$
-  l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
-- p: [3, 2]
-  k: $$mdi:keyboard-tab-reverse$$
-  l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
-- p: [9, 10]
-  k: Sft+$$mdi:keyboard-tab$$
   l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
 - p: [9, 15]
   k: Sft+$$mdi:arrow-up-bold$$
@@ -501,4 +492,10 @@ combos:
   l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
 - p: [33, 25]
   k: Alt+Gui+$$mdi:arrow-right-bold$$
+  l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
+- p: [42, 43]
+  k: Ctl+Sft+$$mdi:apple-keyboard-option$$
+  l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
+- p: [46, 47]
+  k: Ctl+Sft+$$mdi:apple-keyboard-option$$
   l: [QWERTY, NUMBER, NUMPAD, SYMBOL, Fn]
