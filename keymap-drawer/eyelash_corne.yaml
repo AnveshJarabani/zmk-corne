@@ -219,7 +219,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PLAY PAUSE
   - Ctl+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-down-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
@@ -233,7 +233,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PAUSE
   - Ctl+Sft+$$mdi:arrow-left-bold$$
   - Ctl+Sft+$$mdi:arrow-down-bold$$
   - Ctl+Sft+$$mdi:arrow-right-bold$$
